@@ -1,0 +1,21 @@
+<hr>
+  <div class="container text-center mt-5 ">
+    <h3>¡Gracias por su compra!</h3>
+    <p>Estimado(a) <span>{{ pedido.titular }}</span>, su pedido ha sido procesado correctamente.</p>
+    <p>Le enviamos a su correo <span>{{ pedido.email }} </span>los detalles</p>
+
+    @if (pedido) {
+        <div class="mt-4 text-center card_pedido">
+          <h4>Resumen del pedido:</h4>
+          @for (item of pedido.carrito; track $index) {
+            <div>
+              <strong>{{ item.product.name }}</strong> - ${{ item.product.price }}
+            </div>
+          }
+          <p class="mt-2">Total: <strong>${{ pedido.total }}</strong></p>
+          <p>Dirección de envío: <span>{{ pedido.direccion }}</span></p>
+        </div>
+      }
+    <a routerLink="/" class="btn btn-dark mt-4">Volver al inicio</a>
+  </div>
+  

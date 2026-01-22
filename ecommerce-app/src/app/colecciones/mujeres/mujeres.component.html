@@ -1,0 +1,58 @@
+<br><h3>Ropa Mujeres</h3>
+<div class="container">
+  <div class="ropa-container">
+
+    <!-- Spinner mientras carga -->
+    @if (isLoading) {
+      <div class="spinner-container">
+        <div class="spinner-border text-dark" role="status">
+          <span class="visually-hidden">Cargando...</span>
+        </div>
+        <p class="text-muted mt-2">Cargando productos...</p>
+      </div>
+
+      <!-- Skeletons -->
+      @for (i of [1,2,3,4]; track $index) {
+        <div class="ropa-card skeleton">
+          <div class="img-skeleton"></div>
+          <div class="card-content">
+            <p class="skeleton-text"></p>
+            <hr>
+            <p class="skeleton-text"></p>
+            <p class="skeleton-text"></p>
+            <div class="skeleton-button"></div>
+          </div>
+        </div>
+      }
+    } @else {
+      <!-- Productos reales -->
+      @for(producto of showProds; track $index){
+        <div class="ropa-card" (click)="verDetalle(producto._id)">
+          <img class="img-default" [src]="producto.imagesUrl[0]" [alt]="producto.name">
+          <img class="img-hover" [src]="producto.imagesUrl[0]" [alt]="producto.name">
+          <div class="card-content">
+            <p class="nombre">{{ producto.name }}</p>
+            <hr>
+            <p class="precio">Precio: $ <span>{{ producto.price }}</span></p>
+            <p class="stock">Stock: {{ producto.stock }}</p>
+            <div class="mas_menos">
+              @if (auth.isLogged()) {
+                <button 
+                  class="btn btn-outline-dark" 
+                  [disabled]="!hasStock(producto)"
+                  (click)="agregarAlCarrito(producto); $event.stopPropagation()">
+                  <i class="fas fa-shopping-cart"></i>
+                  {{ hasStock(producto) ? 'Agregar al carrito' : 'Sin stock' }}
+                </button>
+              } @else {
+                <div class="alert alert-info">
+                  <a routerLink="/login" (click)="$event.stopPropagation()">Inicia sesión</a> para agregar productos al carrito
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    }
+  </div>
+</div>

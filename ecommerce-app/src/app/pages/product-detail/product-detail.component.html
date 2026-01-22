@@ -1,0 +1,107 @@
+<div class="container mt-5">
+  @if (loading) {
+    <div class="text-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Cargando...</span>
+      </div>
+    </div>
+  } @else if (producto) {
+    <br>
+    <button class="btn btn-outline-secondary mb-3" (click)="volver()">
+      <i class="fas fa-arrow-left"></i> Volver
+    </button>
+
+    <div class="row">
+      <!-- Galería de imágenes -->
+      <div class="col-md-6">
+        <div class="main-image mb-3">
+          <img [src]="imagenActual" [alt]="producto.name" class="img-fluid rounded">
+        </div>
+        
+        <!-- Miniaturas -->
+        <div class="thumbnails d-flex gap-2">
+          @for (imagen of producto.imagesUrl; track $index) {
+            <img 
+              [src]="imagen" 
+              [alt]="producto.name"
+              class="thumbnail"
+              [class.active]="imagen === imagenActual"
+              (click)="cambiarImagen(imagen)"
+              style="width: 80px; height: 80px; object-fit: cover; cursor: pointer; border: 2px solid transparent;"
+              [style.border-color]="imagen === imagenActual ? '#007bff' : 'transparent'">
+          }
+        </div>
+      </div>
+
+      <!-- Información del producto -->
+      <div class="col-md-6">
+        <h1>{{ producto.name }}</h1>
+        <hr>
+        
+        <h3 class="text-primary">${{ producto.price }}</h3>
+        
+        @if (producto.description) {
+          <p class="mt-3">{{ producto.description }}</p>
+        }
+        
+        <div class="mt-3">
+          <!-- <p><strong>Categoría:</strong> {{ producto.category }}</p> -->
+          @if (producto.season) {
+            <p><strong>Temporada:</strong> {{ producto.season }}</p>
+          }
+          <p><strong>Stock disponible:</strong> {{ producto.stock }} unidades</p>
+        </div>
+
+        <!-- Selector de cantidad -->
+        @if (auth.isLogged() && hasStock()) {
+          <div class="cantidad-selector mt-4">
+            <label class="form-label"><strong>Cantidad:</strong></label>
+            <div class="input-group" style="max-width: 150px;">
+              <button 
+                class="btn btn-outline-secondary" 
+                type="button"
+                (click)="disminuirCantidad()"
+                [disabled]="cantidad <= 1">
+                -
+              </button>
+              <input 
+                type="text" 
+                class="form-control text-center" 
+                [value]="cantidad" 
+                readonly>
+              <button 
+                class="btn btn-outline-secondary" 
+                type="button"
+                (click)="aumentarCantidad()"
+                [disabled]="cantidad >= (producto.stock ?? 0)">
+                +
+              </button>
+            </div>
+          </div>
+        }
+
+        <!-- Botones de acción -->
+        <div class="mt-4">
+          @if (auth.isLogged()) {
+            <button 
+              class="btn btn-dark btn-lg w-100"
+              [disabled]="!hasStock()"
+              (click)="agregarAlCarrito()">
+              <i class="fas fa-shopping-cart"></i>
+              {{ hasStock() ? 'Agregar al carrito' : 'Producto agotado' }}
+            </button>
+          } @else {
+            <div class="alert alert-warning">
+              <i class="bi bi-info-circle"></i>
+              Debes <a routerLink="/login" class="alert-link">iniciar sesión</a> para comprar
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="alert alert-danger">
+      Producto no encontrado
+    </div>
+  }
+</div>

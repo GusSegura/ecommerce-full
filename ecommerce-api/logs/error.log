@@ -1,0 +1,480 @@
+2025-08-13T05:05:28.014Z | GET /api/products/ | Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products | MongoServerError: Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products
+    at Connection.sendCommand (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:333:26)
+    at async Server.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\sdam\server.js:171:29)
+    at async FindOperation.execute (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\find.js:36:16)
+    at async tryOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async FindCursor._initialize (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\find_cursor.js:61:26)
+    at async FindCursor.cursorInit (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+2025-08-13T05:16:34.094Z | GET /api/products/ | Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products | MongoServerError: Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products
+    at Connection.sendCommand (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:333:26)
+    at async Server.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\sdam\server.js:171:29)
+    at async FindOperation.execute (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\find.js:36:16)
+    at async tryOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async FindCursor._initialize (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\find_cursor.js:61:26)
+    at async FindCursor.cursorInit (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+2025-08-15T00:00:58.047Z | GET /api/products/ | Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products | MongoServerError: Invalid namespace specified: ecommerce-NG/ecommerce-NG-db.products
+    at Connection.sendCommand (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cmap\connection.js:333:26)
+    at async Server.command (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\sdam\server.js:171:29)
+    at async FindOperation.execute (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\find.js:36:16)
+    at async tryOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:207:20)
+    at async executeOperation (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async FindCursor._initialize (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\find_cursor.js:61:26)
+    at async FindCursor.cursorInit (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+2025-08-17T07:41:37.658Z | POST /api/products/ | Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError" | ValidationError: Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError"
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/productController.js:68:38)
+2025-08-17T07:43:59.565Z | POST /api/products/ | Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError" | ValidationError: Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError"
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/productController.js:68:38)
+2025-08-17T07:46:04.185Z | POST /api/products/ | Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError" | ValidationError: Product validation failed: category: Cast to ObjectId failed for value "68a182a2ba51c57769a3d5fd " (type string) at path "category" because of "BSONError"
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/productController.js:68:38)
+2025-08-17T07:48:19.266Z | POST /api/products/ | Product validation failed: category: Cast to ObjectId failed for value " 68a18303ba51c57769a3d604" (type string) at path "category" because of "BSONError" | ValidationError: Product validation failed: category: Cast to ObjectId failed for value " 68a18303ba51c57769a3d604" (type string) at path "category" because of "BSONError"
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/productController.js:68:38)
+2025-08-17T07:48:40.355Z | POST /api/products/ | Product validation failed: category: Cast to ObjectId failed for value " 68a18303ba51c57769a3d604" (type string) at path "category" because of "BSONError" | ValidationError: Product validation failed: category: Cast to ObjectId failed for value " 68a18303ba51c57769a3d604" (type string) at path "category" because of "BSONError"
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/productController.js:68:38)
+2025-08-19T02:44:48.317Z | POST /api/cart/ | Expected ',' or ']' after array element in JSON at position 146 (line 8 column 5) | SyntaxError: Expected ',' or ']' after array element in JSON at position 146 (line 8 column 5)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\body-parser\lib\types\json.js:77:19)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\body-parser\lib\read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-08-19T03:06:11.235Z | POST /payment-methods | Cannot destructure property 'user' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+    at createPaymentMethod (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/paymentController.js:46:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:15:5
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:10:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+2025-08-19T03:18:09.492Z | POST /payment-methods | Cannot destructure property 'user' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+    at createPaymentMethod (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/paymentController.js:46:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:15:5
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:10:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+2025-08-19T03:18:24.227Z | POST /payment-methods | Cannot destructure property 'user' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+    at createPaymentMethod (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/paymentController.js:46:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:15:5
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:10:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+2025-08-19T03:28:32.506Z | POST /payment-methods | Cannot destructure property 'user' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+    at createPaymentMethod (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/controllers/paymentController.js:46:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:15:5
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/backend/original/2025-2-A-Node/04.Project/ecommerce-NG-api/src/middlewares/authMiddleware.js:10:7)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\backend\original\2025-2-A-Node\04.Project\ecommerce-NG-api\node_modules\router\lib\route.js:157:13)
+2025-12-09T01:25:04.931Z | UNCAUGHT EXCEPTION | cartRoutes is not defined | ReferenceError: cartRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:41:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-09T01:25:23.815Z | UNCAUGHT EXCEPTION | cartRoutes is not defined | ReferenceError: cartRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:42:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-10T07:09:07.721Z | UNCAUGHT EXCEPTION | shippingAddressRoutes is not defined | ReferenceError: shippingAddressRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:43:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-10T07:09:48.859Z | UNCAUGHT EXCEPTION | paymentMethodRoutes is not defined | ReferenceError: paymentMethodRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:45:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-10T07:15:56.139Z | UNCAUGHT EXCEPTION | paymentRoutes is not defined | ReferenceError: paymentRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:46:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-10T07:32:57.427Z | POST /api/shipping-address | ShippingAddress validation failed: user: Path `user` is required. | ValidationError: ShippingAddress validation failed: user: Path `user` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-10T07:33:10.430Z | POST /api/shipping-address | ShippingAddress validation failed: user: Path `user` is required. | ValidationError: ShippingAddress validation failed: user: Path `user` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-11T00:23:16.821Z | POST /api/shipping-address | ShippingAddress validation failed: user: Path `user` is required. | ValidationError: ShippingAddress validation failed: user: Path `user` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-11T01:18:43.300Z | UNCAUGHT EXCEPTION | orderRoutes is not defined | ReferenceError: orderRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:47:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-12T20:01:14.100Z | POST /api/products | Product validation failed: category: Cast to ObjectId failed for value "mujer" (type string) at path "category" because of "BSONError", season: Path `season` is required. | ValidationError: Product validation failed: category: Cast to ObjectId failed for value "mujer" (type string) at path "category" because of "BSONError", season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\model.js:127:12)
+    at new model (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\model.js:4826:15)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\model.js:2775:20
+    at Array.map (<anonymous>)
+    at Function.create (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\model.js:2763:34)
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:71:38)
+2025-12-12T20:10:53.835Z | POST /api/products | Product validation failed: season: Path `season` is required. | ValidationError: Product validation failed: season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-13T02:04:42.061Z | UNCAUGHT EXCEPTION | categoryRoutes is not defined | ReferenceError: categoryRoutes is not defined
+    at file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/server.js:49:28
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-12-13T02:17:19.949Z | GET /api/products/categories | Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product" | CastError: Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1680:17)
+    at cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductById (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:36:21)
+2025-12-13T02:17:30.823Z | GET /api/products/categories | Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product" | CastError: Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1680:17)
+    at cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductById (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:36:21)
+2025-12-13T02:18:56.093Z | GET /api/products/categories | Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product" | CastError: Cast to ObjectId failed for value "categories" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1258:12)
+    at SchemaType.castForQuery (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1680:17)
+    at cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductById (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:36:21)
+2025-12-13T02:29:13.047Z | POST /api/products | Product validation failed: season: Path `season` is required. | ValidationError: Product validation failed: season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-13T02:29:37.531Z | POST /api/products | Product validation failed: season: Path `season` is required. | ValidationError: Product validation failed: season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-13T02:33:58.583Z | POST /api/products | Product validation failed: season: Path `season` is required. | ValidationError: Product validation failed: season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-13T02:41:43.375Z | POST /api/products | Product validation failed: season: Path `season` is required. | ValidationError: Product validation failed: season: Path `season` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-13T21:31:02.580Z | POST / | Ropa is not defined | ReferenceError: Ropa is not defined
+    at createOrder (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/orderController.js:87:24)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/middlewares/authMiddleware.js:19:3)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+2025-12-13T21:34:25.840Z | POST / | Ropa is not defined | ReferenceError: Ropa is not defined
+    at createOrder (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/orderController.js:87:24)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/middlewares/authMiddleware.js:19:3)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+2025-12-13T21:34:38.377Z | POST / | Ropa is not defined | ReferenceError: Ropa is not defined
+    at createOrder (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/orderController.js:87:24)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/middlewares/authMiddleware.js:19:3)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+2025-12-13T21:35:19.428Z | POST / | Ropa is not defined | ReferenceError: Ropa is not defined
+    at createOrder (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/orderController.js:87:24)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/middlewares/authMiddleware.js:19:3)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+2025-12-13T21:37:00.740Z | POST / | Ropa is not defined | ReferenceError: Ropa is not defined
+    at createOrder (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/orderController.js:87:24)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at authMiddleware (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/middlewares/authMiddleware.js:19:3)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+2025-12-14T22:34:45.862Z | POST /api/products | Cannot destructure property 'name' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:111:13)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+    at processParams (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:582:12)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:186:3)
+2025-12-14T22:36:36.200Z | POST /api/products | Cannot destructure property 'name' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:111:13)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+    at processParams (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:582:12)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:186:3)
+2025-12-14T22:39:38.532Z | POST /api/products | Cannot destructure property 'name' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:111:13)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+    at processParams (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:582:12)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:186:3)
+2025-12-14T22:39:42.985Z | POST /api/products | Cannot destructure property 'name' of 'req.body' as it is undefined. | TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:111:13)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:295:15
+    at processParams (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:582:12)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\index.js:186:3)
+2025-12-14T23:08:37.004Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-14T23:10:16.960Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-14T23:27:32.192Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-14T23:28:28.917Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-14T23:31:56.374Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-15T00:27:38.690Z | POST /api/products | uploadDir is not defined | ReferenceError: uploadDir is not defined
+    at createProduct (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/controllers/productController.js:68:35)
+    at Layer.handleRequest (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\router\lib\route.js:157:13)
+    at done (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:59:7)
+    at indicateDone (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:63:68)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:176:11
+    at WriteStream.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+2025-12-15T00:35:32.955Z | PUT /api/products/68a1879f1c63b3f4f69f283e | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-15T00:36:10.428Z | PUT /api/products/68a1879f1c63b3f4f69f283e | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-15T00:50:46.667Z | POST /api/products | Solo se permiten imágenes (jpeg, jpg, png, gif, webp) | Error: Solo se permiten imágenes (jpeg, jpg, png, gif, webp)
+    at fileFilter (file:///C:/Users/gustavo.segura/Desktop/Mis%20Practicas/Proyecto_Fullstack/ecommerce-front-back-Dic25/ecommerce-api/src/routes/productRoutes.js:52:6)
+    at wrappedFileFilter (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\busboy\lib\types\multipart.js:567:19)
+2025-12-15T08:44:07.610Z | PUT /api/users/68a29f5ca3ac209d574bee1d | User validation failed: password: Path `password` is required. | ValidationError: User validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-15T08:44:23.695Z | PUT /api/users/68a29f5ca3ac209d574bee1d | User validation failed: password: Path `password` is required. | ValidationError: User validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-15T08:44:38.116Z | PUT /api/users/68a29f5ca3ac209d574bee1d | User validation failed: password: Path `password` is required. | ValidationError: User validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-12-15T08:46:36.537Z | DELETE /api/users/68a29f5ca3ac209d574bee1d | User validation failed: password: Path `password` is required. | ValidationError: User validation failed: password: Path `password` is required.
+    at Document.invalidate (C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3358:32)
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\document.js:3119:17
+    at C:\Users\gustavo.segura\Desktop\Mis Practicas\Proyecto_Fullstack\ecommerce-front-back-Dic25\ecommerce-api\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

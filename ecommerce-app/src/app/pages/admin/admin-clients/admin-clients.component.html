@@ -1,0 +1,248 @@
+<br>
+<div class="container mt-4">
+  <h2>
+    
+    {{ editMode ? 'Editar Cliente' : 'Agregar Nuevo Cliente' }}
+  </h2>
+
+  <!-- Formulario -->
+  <form [formGroup]="clientForm" (ngSubmit)="onSubmit()" class="mb-5">
+    <div class="row">
+      <!-- Nombre Completo -->
+      <div class="col-md-12 mb-3">
+        <label class="form-label">Nombre Completo *</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="displayName"
+          placeholder="Nombre">
+        <div class="text-danger" *ngIf="clientForm.get('displayName')?.invalid && clientForm.get('displayName')?.touched">
+          El nombre es requerido (mínimo 3 caracteres)
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="col-md-6 mb-3">
+        <label class="form-label">Email *</label>
+        <input 
+          type="email" 
+          class="form-control" 
+          formControlName="email"
+          placeholder="cliente@example.com">
+        <div class="text-danger" *ngIf="clientForm.get('email')?.invalid && clientForm.get('email')?.touched">
+          Email válido es requerido
+        </div>
+      </div>
+
+      <!-- Teléfono -->
+      <div class="col-md-6 mb-3">
+        <label class="form-label">Teléfono</label>
+        <input 
+          type="tel" 
+          class="form-control" 
+          formControlName="phone"
+          placeholder="449-xxx-xxxx">
+      </div>
+
+    <!-- Rol -->
+    <div class="col-md-6 mb-3">
+        <label class="form-label">Rol</label>
+        <select 
+            class="form-select"
+            formControlName="role">            
+            <option value="" disabled selected>Seleccione un rol</option>
+            <option value="customer">Cliente</option>
+            <option value="admin">Administrador</option>    
+        </select>
+    </div>
+
+    <!-- PAssword -->
+      <div class="col-md-6 mb-3">
+        <label class="form-label">Password</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="password"
+          placeholder="******">
+      </div>
+
+      <!-- Dirección -->
+      <div class="col-md-12 mb-3">
+        <label class="form-label">Dirección</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="address"
+          placeholder="Calle y número">
+      </div>
+
+      <!-- Ciudad -->
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Ciudad</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="city"
+          placeholder="Aguascalientes">
+      </div>
+
+      <!-- Estado -->
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Estado</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="state"
+          placeholder="Aguascalientes">
+      </div>
+
+      <!-- Código Postal -->
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Código Postal</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          formControlName="postalCode"
+          placeholder="20000">
+      </div>
+
+      <!-- Estado Activo -->
+      <div class="col-md-12 mb-3">
+        <div class="form-check">
+          <input 
+            class="form-check-input" 
+            type="checkbox" 
+            formControlName="isActive"
+            id="isActive">
+          <label class="form-check-label" for="isActive">
+            Cliente activo
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="d-flex gap-2">
+      <button 
+        type="submit" 
+        class="btn btn-success"
+        [disabled]="clientForm.invalid">
+        <i class="fas fa-save"></i> 
+        {{ editMode ? 'Actualizar' : 'Guardar' }}
+      </button>
+      
+      @if (editMode) {
+        <button 
+          type="button" 
+          class="btn btn-secondary" 
+          (click)="resetForm()">
+          <i class="fas fa-times"></i> Cancelar
+        </button>
+      }
+    </div>
+  </form>
+
+  <hr>
+ @defer (on timer(3000ms)) {
+  <!-- Lista de Clientes -->
+  <h3>
+    <i class="fas fa-list"></i> Lista de Clientes ({{ clients.length }})
+  </h3>
+  
+  <div class="table-responsive">
+    <table class="table table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Teléfono</th>
+          <th>Ciudad</th>
+          <!-- <th>Fecha Registro</th> -->
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @if (clients.length === 0) {
+          <tr>
+            <td colspan="6" class="text-center text-muted">
+              No hay clientes registrados
+            </td>
+          </tr>
+        }
+        
+        @for (client of clients; track client._id) {
+          <tr [class.table-secondary]="!client.isActive">
+            <td>
+              {{ client.displayName }}
+              @if (!client.isActive) {
+                <span class="badge bg-secondary ms-2">Inactivo</span>
+              }
+            </td>
+            <td>{{ client.email }}</td>
+            <td>{{ client.phone || 'N/A' }}</td>
+            <td>{{ client.city || 'N/A' }}</td>
+            <!-- <td>{{ formatDate(client.createdAt) }}</td> -->
+            <td>
+              <div class="btn-group btn-group-sm" role="group">
+                <button 
+                  class="btn btn-outline-primary" 
+                  (click)="editClient(client)"
+                  title="Editar">
+                  <i class="fas fa-edit"></i>
+                </button>
+
+                <button 
+                  class="btn"
+                  [class.btn-outline-success]="!client.isActive"
+                  [class.btn-outline-warning]="client.isActive"
+                  (click)="toggleClientStatus(client)"
+                  [title]="client.isActive ? 'Desactivar' : 'Activar'">
+                  <i [class.fa-toggle-off]="!client.isActive" 
+                     [class.fa-toggle-on]="client.isActive"
+                     class="fas"></i>
+                </button>
+
+                <button 
+                  class="btn btn-outline-danger" 
+                  (click)="deleteClient(client._id!, client.displayName)"
+                  title="Eliminar">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+
+    <!-- Paginación -->
+    @if (pagination.totalPages > 1) {
+      <div class="d-flex justify-content-center mt-3 gap-3">
+        <button 
+          class="btn btn-outline-dark"
+          [disabled]="!pagination.hasPrev"
+          (click)="loadClients(pagination.currentPage - 1)">
+          ← Anterior
+        </button>
+
+        <span class="align-self-center">
+          Página {{ pagination.currentPage }} de {{ pagination.totalPages }}
+        </span>
+
+        <button 
+          class="btn btn-outline-dark"
+          [disabled]="!pagination.hasNext"
+          (click)="loadClients(pagination.currentPage + 1)">
+          Siguiente →
+        </button>
+      </div>
+    }
+  </div>
+   } @placeholder {
+      <p class="text-muted"> Preparando listado de clientes...</p>
+    } @loading {
+      <p class="text-muted">Cargando Clientes...</p>
+    } @error {
+      <p class="text-danger">Error al cargar el formulario.</p>
+    }
+</div>

@@ -1,0 +1,49 @@
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(162, 56, 3);
+}
+h4{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(162, 56, 3);
+}
+.ofe_cards{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;   
+    margin-left: 20px;
+}
+.ofe_cards img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    padding: 30px;
+}
+.card{
+    text-align: center;
+    margin: 0 auto;
+}
+.descuento{
+    width: 400px;
+    border-radius: 8px;
+}
+.precio_of{
+    font-size: 18px;
+    font-weight: bold;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}

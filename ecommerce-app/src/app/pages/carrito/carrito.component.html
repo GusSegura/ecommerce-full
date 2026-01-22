@@ -1,0 +1,36 @@
+<br>
+<div class="container mt-4">
+    <h3><i class="fa-solid fa-cart-shopping"></i> Mi Carrito</h3>
+  
+    @if (carrito.length === 0) {
+      <p>No hay productos en el carrito.</p>
+    } @else {
+      <div class="list-group mb-3">
+        @for (item of carrito; track $index) {
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+              <h5>{{ item.product.name }}</h5>
+              <p class="mb-0">Precio: $ {{ item.product.price }}.00</p>
+              <div class="d-flex align-items-center mt-2">
+              <button class="btn btn-outline-dark btn-sm me-2"
+                      (click)="actualizarCantidad(item, -1)">-</button>
+
+              <p class="mb-0 me-2">Cantidad: {{ item.quantity }}</p>
+
+              <button class="btn btn-outline-dark btn-sm"
+                      (click)="actualizarCantidad(item, +1)" [disabled]="item.quantity >= item.product.stock">+</button>
+            </div>
+            </div>
+            <button class="btn btn-danger btn-sm" (click)="eliminarProducto(item)">X</button>
+          </div>
+        }
+      </div>
+  
+      <p class="fw-bold">Total: $ {{ total }}.00</p>
+      <div class="btn_carrito">
+        <button class="btn btn-danger me-2" (click)="vaciarCarrito()"><i class="fa-solid fa-trash-can"></i> Vaciar carrito</button>
+        <button class="btn btn-dark" (click)="irAlCheckout()"><i class="fa-solid fa-sack-dollar"></i> Continuar con el Pago</button>
+    </div>
+    }
+  </div>
+  

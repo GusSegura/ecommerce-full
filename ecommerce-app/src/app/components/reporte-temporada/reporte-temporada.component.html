@@ -1,0 +1,43 @@
+<br>
+<div class="btn_tmporada">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" (change)="navegar('primavera')">
+            <label class="btn btn-outline-dark" for="btnradio1">Primavera</label>
+        
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" (change)="navegar('verano')">
+            <label class="btn btn-outline-dark" for="btnradio2">Verano</label>
+        
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" (change)="navegar('otoño')">
+            <label class="btn btn-outline-dark" for="btnradio3">Otoño</label>
+
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" (change)="navegar('invierno')">
+            <label class="btn btn-outline-dark" for="btnradio4">Invierno</label>
+        </div>
+</div>
+
+
+    <h3>Productos de temporada: {{ temporada | titlecase }}</h3>
+    <div class="container">
+      <div class="ropa-container"> 
+        @for(prod of productosTemporada; track $index){       
+        <div class="ropa-card">
+           <img class="img-default card-img-top" [src]="prod.imagesUrl?.[0]" [alt]="prod.name">
+      <!-- usar imagenHover si existe, si no usar la primera imagen -->
+      <img class="img-hover" [src]="prod.imagenHover ? prod.imagenHover : prod.imagesUrl?.[0]" [alt]="prod.name">
+      <div class="card-content">
+        <p class="nombre">{{ prod.name }}</p>
+        <hr>
+        <p class="precio">Precio: $ <span>{{ prod.price }}</span></p>
+            <div class="mas_menos">
+                <button class="btn btn-outline-dark" (click)="agregarAlCarrito(prod)">Agregar</button>
+            </div>  
+          </div>
+        </div>
+        }
+        
+      </div>
+    </div>

@@ -1,0 +1,20 @@
+h3{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(162, 56, 3);
+}
+.container{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.fw-bold{
+    text-align: center;
+    font-size: 25px;
+}
+.btn_carrito{
+    text-align: center;
+}
+.list-group{
+    border-radius: 10px;
+}

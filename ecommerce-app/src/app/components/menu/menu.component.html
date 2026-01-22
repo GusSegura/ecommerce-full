@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary menu-fijo">
+  <div class="container-fluid">
+    <a routerLink="/"><img class="logo" src="/logoNG.png" alt=""></a>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/mujeres" routerLinkActive="active">Mujeres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/hombres" routerLinkActive="active">Hombres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/kids" routerLinkActive="active">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/accesorios" routerLinkActive="active">Accesorios</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="collapse navbar-collapse iconos">
+    <ul class="navbar-nav">
+
+ 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <div class="px-3 py-2">
+              <input type="text" class="form-control buscar" placeholder="Buscar...">
+              <ul>
+                <li><p><i class="fa-solid fa-person-dress"></i> Mujeres</p></li>
+                <li><p><i class="fa-solid fa-person"></i> Hombres</p></li>
+                <li><p><i class="fa-solid fa-baby"></i> Kids</p></li>
+                <li><p><i class="fa-solid fa-glasses"></i> Accesorios</p></li>
+                <li><p><i class="fa-solid fa-fan"></i> Primavera</p></li>
+                <li><p><i class="fa-solid fa-sun"></i> Verano</p></li>
+                <li><p><i class="fa-solid fa-leaf"></i> Otoño</p></li>
+                <li><p><i class="fa-solid fa-snowflake"></i> Invierno</p></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+
+      <!-- icono Usuario cuando NO está logueado -->
+     <li class="nav-item dropdown" *ngIf="!(auth.user$ | async); else logueado">
+  <a class="nav-link" (click)="showLoginPopup()" data-cy="login-icon">
+    <i class="fa-regular fa-user"></i>
+  </a>
+</li>
+
+<ng-template #logueado>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+      <i class="fa-regular fa-user"></i>
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" routerLink="/profile">Perfil</a></li>
+      <li><a class="dropdown-item" routerLink="/carrito">Carrito</a></li>
+      <!-- @if (isAdmin()) {
+        <li>
+          <a class="dropdown-item" routerLink="/admin/products">Admin productos</a>
+        </li>} -->
+        @if (isAdmin()) {          
+          <li><a class="dropdown-item" routerLink="/admin/products">Admin de productos</a></li>
+          <li><a class="dropdown-item" routerLink="/admin/clients">Gestión de clientes</a></li>
+        }
+      <li><button class="dropdown-item" (click)="auth.logout()">Cerrar sesión</button></li>      
+    </ul>
+  </li>
+</ng-template>
+
+      <!-- Ícono carrito -->
+      <li class="nav-item">
+        <a class="nav-link position-relative" routerLink="/carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          @if (cantidadProductos > 0) {
+            <span class="position-absolute badge-custom badge rounded-pill bg-danger">
+              {{ cantidadProductos }}
+            </span>
+          }
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</nav>

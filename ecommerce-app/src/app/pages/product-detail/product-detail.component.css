@@ -1,0 +1,20 @@
+.main-image img {
+  max-height: 500px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.thumbnail {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.thumbnail.active {
+  border-color: #007bff !important;
+  box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+}

@@ -1,0 +1,11 @@
+<div class="login-form">
+  <h3>Iniciar sesión</h3>
+  <form (ngSubmit)="onSubmit()">
+    <input type="email" [(ngModel)]="email" name="email" required placeholder="Email" />
+    <input type="password" [(ngModel)]="password" name="password" required placeholder="Contraseña" />
+    <button class="btn btn-dark" type="submit">Entrar</button>
+  </form>
+  @if (error) {
+  <p class="text-danger">{{ error }}</p>
+}
+</div>

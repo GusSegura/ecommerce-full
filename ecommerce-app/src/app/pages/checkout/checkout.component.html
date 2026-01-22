@@ -1,0 +1,219 @@
+<br>
+<div class="container mt-4">
+  <h3><i class="fa-regular fa-credit-card"></i> Datos de Pago y Envío</h3>
+
+  @if (carrito.length === 0) {
+    <p>No hay productos en el carrito.</p>
+  } @else {
+    <div class="list-group mb-3">
+      @for (item of carrito; track $index) {
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>{{ item.product.name }}</h5>
+            <p class="mb-0">Precio: $ {{ item.product.price }}</p>
+            <p class="mb-0">Cantidad: {{ item.quantity }}</p>
+          </div>
+        </div>
+      }
+    </div>
+
+    @defer (on timer(3000ms)) {
+      <div class="container mt-4">
+        <form [formGroup]="checkoutForm" (ngSubmit)="procesarPago()">
+          
+          <!-- Titular de la tarjeta -->
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="titular" class="form-label">Titular de la tarjeta *</label>
+              <input 
+                type="text" 
+                id="titular" 
+                class="form-control" 
+                formControlName="titular"
+                placeholder="Nombre completo"
+                [class.is-invalid]="(titular?.invalid && titular?.touched) || (submitted && titular?.invalid)">
+              
+              @if ((titular?.invalid && titular?.touched) || (submitted && titular?.invalid)) {
+                <div class="invalid-feedback">
+                  @if (titular?.errors?.['required']) {
+                    <div>El nombre del titular es obligatorio.</div>
+                  }
+                  @if (titular?.errors?.['minlength']) {
+                    <div>El nombre debe tener al menos 3 caracteres.</div>
+                  }
+                  @if (titular?.errors?.['pattern']) {
+                    <div>El nombre solo puede contener letras y espacios.</div>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-12">
+              <label for="email" class="form-label">Correo electrónico *</label>
+              <input 
+                type="email" 
+                id="email" 
+                class="form-control" 
+                formControlName="email"
+                placeholder="ejemplo@correo.com"
+                [class.is-invalid]="(email?.invalid && email?.touched) || (submitted && email?.invalid)">
+              
+              @if (email?.pending) {
+                <small class="text-muted">Verificando email...</small>
+              }
+              
+              @if ((email?.invalid && email?.touched) || (submitted && email?.invalid)) {
+                <div class="invalid-feedback">
+                  @if (email?.errors?.['required']) {
+                    <div>El correo electrónico es obligatorio.</div>
+                  }
+                  @if (email?.errors?.['email']) {
+                    <div>Por favor ingrese un correo electrónico válido.</div>
+                  }
+                  @if (email?.errors?.['emailBloqueado']) {
+                    <div>Este correo electrónico no está permitido.</div>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Número de tarjeta -->
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <label for="tarjeta" class="form-label">Número de tarjeta *</label>
+              <input 
+                type="text" 
+                id="tarjeta" 
+                class="form-control" 
+                formControlName="tarjeta"
+                (input)="formatearTarjeta($event)"
+                placeholder="XXXX XXXX XXXX XXXX"
+                maxlength="19"
+                [class.is-invalid]="(tarjeta?.invalid && tarjeta?.touched) || (submitted && tarjeta?.invalid)">
+              
+              @if ((tarjeta?.invalid && tarjeta?.touched) || (submitted && tarjeta?.invalid)) {
+                <div class="invalid-feedback">
+                  @if (tarjeta?.errors?.['required']) {
+                    <div>El número de tarjeta es obligatorio.</div>
+                  }
+                  @if (tarjeta?.errors?.['formatoInvalido']) {
+                    <div>El número de tarjeta solo puede contener números.</div>
+                  }
+                  @if (tarjeta?.errors?.['longitudInvalida']) {
+                    <div>El número de tarjeta debe tener entre 13 y 19 dígitos.</div>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Fecha de expiración -->
+            <div class="col-md-6">
+              <label for="fecha" class="form-label">Fecha de expiración *</label>
+              <input 
+                type="text" 
+                id="fecha" 
+                class="form-control" 
+                formControlName="fecha"
+                (input)="formatearFecha($event)"
+                placeholder="MM/AA"
+                maxlength="5"
+                [class.is-invalid]="(fecha?.invalid && fecha?.touched) || (submitted && fecha?.invalid)">
+              
+              @if ((fecha?.invalid && fecha?.touched) || (submitted && fecha?.invalid)) {
+                <div class="invalid-feedback">
+                  @if (fecha?.errors?.['required']) {
+                    <div>La fecha de expiración es obligatoria.</div>
+                  }
+                  @if (fecha?.errors?.['formatoFechaInvalido']) {
+                    <div>El formato debe ser MM/AA.</div>
+                  }
+                  @if (fecha?.errors?.['tarjetaExpirada']) {
+                    <div>La tarjeta está expirada.</div>
+                  }
+                  @if (fecha?.errors?.['fechaFutura']) {
+                    <div>La fecha no puede ser tan lejana en el futuro.</div>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- CVV -->
+            <div class="col-md-6">
+              <label for="cvv" class="form-label">CVV *</label>
+              <input 
+                type="password" 
+                id="cvv" 
+                class="form-control" 
+                formControlName="cvv"
+                placeholder="XXX"
+                maxlength="4"
+                [class.is-invalid]="(cvv?.invalid && cvv?.touched) || (submitted && cvv?.invalid)">
+              
+              @if ((cvv?.invalid && cvv?.touched) || (submitted && cvv?.invalid)) {
+                <div class="invalid-feedback">
+                  @if (cvv?.errors?.['required']) {
+                    <div>El CVV es obligatorio.</div>
+                  }
+                  @if (cvv?.errors?.['pattern'] || cvv?.errors?.['minlength'] || cvv?.errors?.['maxlength']) {
+                    <div>El CVV debe tener 3 o 4 dígitos.</div>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Dirección de envío -->
+          <div class="mb-3">
+            <label for="direccionEnvio" class="form-label">Dirección de envío *</label>
+            <input 
+              type="text" 
+              id="direccionEnvio" 
+              class="form-control" 
+              formControlName="direccionEnvio"
+              placeholder="Calle, número, ciudad, estado"
+              [class.is-invalid]="(direccionEnvio?.invalid && direccionEnvio?.touched) || (submitted && direccionEnvio?.invalid)">
+            
+            @if ((direccionEnvio?.invalid && direccionEnvio?.touched) || (submitted && direccionEnvio?.invalid)) {
+              <div class="invalid-feedback">
+                @if (direccionEnvio?.errors?.['required']) {
+                  <div>La dirección de envío es obligatoria.</div>
+                }
+               @if (direccionEnvio?.errors?.['minlength']) {
+                  <div>La dirección debe tener al menos 10 caracteres.</div>
+                }
+              </div>
+            }
+          </div>
+        </form>
+      </div>
+
+    } @placeholder {
+      <p class="text-muted">Preparando formulario de pago y envío...</p>
+    } @loading {
+      <p class="text-muted">Cargando formulario...</p>
+    } @error {
+      <p class="text-danger">Error al cargar el formulario.</p>
+    }
+
+    <!-- Total y botón de pago -->
+    <div class="mb-3">
+      <h4>Total: $ {{ total }}.00</h4>
+    </div>
+    <div class="btn_check">
+      <button 
+        class="btn btn-dark" 
+        (click)="procesarPago()"
+        [disabled]="checkoutForm.invalid">
+        <i class="fa-solid fa-sack-dollar"></i> Procesar Pago
+      </button>
+    </div>
+  }
+
+  @if (pagoExitoso) {
+    <div class="alert alert-success mt-4" role="alert">
+      ¡Pago exitoso! Tu pedido ha sido confirmado.
+    </div>
+  }
+</div>
