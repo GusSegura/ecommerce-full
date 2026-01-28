@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
+import { environment } from '../../../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CarritoService {
 
-  // base completo hasta /my (sin slash final)
-  private API = 'http://localhost:3000/api/cart/my';
+  private API = `${environment.BACK_URL}cart/my`;
 
   private contadorSubject = new BehaviorSubject<number>(0);
   contador$ = this.contadorSubject.asObservable();

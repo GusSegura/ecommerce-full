@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../../../../environments/environment.development';
 
 @Injectable({ providedIn: 'root' })
-export class ShippingAddressService {
-  private API = 'http://localhost:3000/api/shipping-address';
+export class ShippingAddressService {  
+  private API = `${environment.BACK_URL}shipping-address`;
   
   constructor(private http: HttpClient) {}
   

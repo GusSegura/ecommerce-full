@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, map, Observable, tap } from 'rxjs';
 import { CarritoService } from '../cart/carrito.service';
 import { Router } from '@angular/router';
+import { environment } from '../../../../environments/environment.development';
 
 export interface User {
   _id: string;
@@ -21,8 +22,8 @@ export interface User {
   providedIn: 'root'
 })
 export class AuthService {
-  private baseUrl = 'http://localhost:3000/api';
-  private API = 'http://localhost:3000/api/auth';
+  private baseUrl = environment.BACK_URL;
+  private API = `${environment.BACK_URL}auth/my`;
   private userSubject = new BehaviorSubject<User | null>(this.getUserFromStorage());
   user$ = this.userSubject.asObservable();
 
@@ -83,7 +84,7 @@ export class AuthService {
 
   checkEmailExist(email: string): Observable<boolean> {
     return this.httpClient
-      .get<{ exists: boolean }>(`${this.baseUrl}/auth/check-email`, {
+      .get<{ exists: boolean }>(`${this.baseUrl}auth/check-email`, {
         params: { email },
       })
       .pipe(map((res: { exists: boolean }) => res.exists));

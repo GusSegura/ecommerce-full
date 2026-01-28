@@ -3,13 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Ropa, ProductResponse } from '../../types/ropa';
 import { catchError, throwError } from 'rxjs';
+import { environment } from '../../../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductosService {
   private http = inject(HttpClient);
-  private baseUrl = 'http://localhost:3000/api/products';
+  private baseUrl = `${environment.BACK_URL}products`;
 
   constructor(private httpClient: HttpClient) { }
 
