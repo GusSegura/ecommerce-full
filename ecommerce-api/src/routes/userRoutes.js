@@ -17,7 +17,7 @@ import {
 } from '../controllers/userController.js';
 import authMiddleware from '../middlewares/authMiddleware.js'; // Middleware de autenticación
 import isAdmin from '../middlewares/isAdminMiddleware.js'; // Middleware de admin
-import User from '../models/User.js';
+import User from '../models/user.js';
 
 const router = express.Router();
 

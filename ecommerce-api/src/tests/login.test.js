@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import request from "supertest";
 import app from "../app.js";   
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 beforeAll(async () => {
   await mongoose.connect("mongodb://127.0.0.1:27017/testdb");
