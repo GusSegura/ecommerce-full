@@ -1,1 +1,4 @@
-export const environment = {BACK_URL: 'http://localhost:3000/api'};
+export const environment = {
+  production: true,
+  BACK_URL: 'https://ecommerce-full.onrender.com/api/'
+};
