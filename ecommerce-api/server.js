@@ -48,22 +48,12 @@ const allowedOrigins = [
 
 app.options('*', cors());
 
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      if (!origin) return callback(null, true);
+const cors = require('cors');
 
-      if (allowedOrigins.indexOf(origin) !== -1) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-    methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-    credentials: true,
-  })
-);
-
+app.use(cors({
+  origin: process.env.FRONT_APP_URL || 'http://localhost:4200',
+  credentials: true
+}));
 
 
 // Middlewares
@@ -106,9 +96,8 @@ app.use(errorHandler);
 // app.listen(process.env.PORT, () => {
 //   console.log(`Server running on http://localhost:${process.env.PORT}`);
 // });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log('PORT ENV:', process.env.PORT);
   console.log(`Server running on port ${PORT}`);
 });
