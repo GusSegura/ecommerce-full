@@ -9,7 +9,7 @@ import { environment } from '../../../../environments/environment';
 })
 export class CarritoService {
 
-  private API = `${environment.BACK_URL}cart/my`;
+  private API = `${environment.BACK_URL}cart`;
 
   private contadorSubject = new BehaviorSubject<number>(0);
   contador$ = this.contadorSubject.asObservable();
