@@ -31,30 +31,13 @@ const __dirname = path.dirname(__filename);
 const app = express();
 dbConnection();
 
-// console.log("CORS ORIGIN:", process.env.FRONT_APP_URL);
-// app.use(
-//   cors({
-//     origin: process.env.FRONT_APP_URL,
-//     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-//     credentials: true,
-//     optionsSuccessStatus: 200,
-//   })
-// );
-
-const allowedOrigins = [
-  process.env.FRONT_APP_URL,
-  "http://localhost:4200"
-];
-
-app.options('*', cors());
-
-const cors = require('cors');
-
+// Configuración de CORS
 app.use(cors({
   origin: process.env.FRONT_APP_URL || 'http://localhost:4200',
-  credentials: true
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
+  credentials: true,
+  optionsSuccessStatus: 200
 }));
-
 
 // Middlewares
 app.use(express.json());
@@ -64,7 +47,7 @@ app.use(logger);
 // Servir archivos estáticos de la carpeta public
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
-// Rutas correctas AQUÍ (antes del 404)
+// Rutas
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/products', productsRoutes);
@@ -78,7 +61,11 @@ app.use('/api/categories', categoryRoutes);
 
 // Ruta principal
 app.get('/', (req, res) => {
-  res.send('WELCOME!');
+  res.json({
+    message: 'E-commerce API',
+    status: 'Running',
+    version: '1.0.0'
+  });
 });
 
 // Middleware 404 (debe ir al final)
@@ -90,14 +77,13 @@ app.use((req, res) => {
   });
 });
 
-// Error Handler AL FINAL DEL TODO
+// Error Handler AL FINAL
 app.use(errorHandler);
 
-// app.listen(process.env.PORT, () => {
-//   console.log(`Server running on http://localhost:${process.env.PORT}`);
-// });
+// Iniciar servidor
 const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV}`);
 });
