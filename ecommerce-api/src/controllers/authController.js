@@ -60,29 +60,46 @@ export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
+    console.log('🔐 ===== INTENTO DE LOGIN =====');
+    console.log('📧 Email recibido:', email);
+    console.log('🔑 Password recibido:', password ? '***' : 'NO ENVIADO');
+    console.log('📦 Body completo:', req.body);
+
     // Validar que se envíen ambos campos
     if (!email || !password) {
+      console.log('❌ Faltan campos requeridos');
       return res.status(400).json({ error: 'Email y contraseña son requeridos' });
     }
 
     // Buscar usuario por email
     const user = await User.findOne({ email });
+    console.log('👤 Usuario encontrado:', user ? `SÍ (${user.email})` : 'NO');
+    
     if (!user) {
+      console.log('❌ Usuario no existe en BD');
       return res.status(400).json({ error: 'Usuario no encontrado' });
     }
 
+    console.log('🔐 Comparando contraseñas...');
     // Comparar contraseña ingresada con la encriptada en BD
-    const isMatch = await bcrypt.compare(password, user.password); // 👈 importante: usar user.password
+    const isMatch = await bcrypt.compare(password, user.password);
+    console.log('🔑 Password válido:', isMatch);
+    
     if (!isMatch) {
+      console.log('❌ Contraseña incorrecta');
       return res.status(400).json({ error: 'Credenciales inválidas' });
     }
 
+    console.log('✅ Login exitoso, generando token...');
+    
     // Generar token JWT
     const token = jwt.sign(
       { id: user._id, role: user.role },
       process.env.JWT_SECRET || 'secretkey',
       { expiresIn: '1h' }
     );
+
+    console.log('✅ Token generado, enviando respuesta');
 
     // Responder sin exponer la contraseña
     res.json({
@@ -102,7 +119,9 @@ export const login = async (req, res) => {
       }
     });
   } catch (error) {
-    console.error('❌ Error en login:', error);
+    console.error('❌ ===== ERROR EN LOGIN =====');
+    console.error('Error completo:', error);
+    console.error('Stack:', error.stack);
     res.status(500).json({ error: 'Error en login', details: error.message });
   }
 };

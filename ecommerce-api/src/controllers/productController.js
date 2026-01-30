@@ -256,28 +256,35 @@ async function getProductsByCategoryName(req, res, next) {
   try {
     const { name } = req.params;
     
-    console.log('🔍 Buscando categoría:', name);
-    console.log('📊 Tipo de name:', typeof name);
+    console.log('🔍 ===== BÚSQUEDA DE PRODUCTOS =====');
+    console.log('📂 Categoría solicitada:', name);
+    console.log('📊 Tipo:', typeof name);
 
     const category = await Category.findOne({ name });
-    console.log('📂 Categoría encontrada:', category);
+    console.log('📁 Categoría encontrada:', category ? `SÍ (${category.name})` : 'NO');
     
     if (!category) {
-      console.log('❌ No se encontró la categoría');
+      // Mostrar todas las categorías disponibles
+      const allCategories = await Category.find({}, 'name');
+      console.log('📋 Categorías disponibles:', allCategories.map(c => c.name));
+      
       return res.status(404).json({ 
         message: "Category not found",
         searchedName: name,
-        availableCategories: await Category.find({}, 'name') // Ver qué categorías existen
+        availableCategories: allCategories.map(c => c.name)
       });
     }
 
     const products = await Product.find({ category: category._id });
     console.log('📦 Productos encontrados:', products.length);
+    console.log('✅ Enviando respuesta con productos');
     
     res.status(200).json(products);
     
   } catch (error) {
-    console.error('❌ Error completo:', error);
+    console.error('❌ ===== ERROR EN BÚSQUEDA =====');
+    console.error('Error completo:', error);
+    console.error('Stack:', error.stack);
     res.status(500).json({ message: "Server error", error: error.message });
   }
 }
