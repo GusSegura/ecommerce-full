@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { HttpClient } from '@angular/common/http';
 import { ProductosService } from '../../../core/services/product/productos.service';
 import { Ropa } from '../../../core/types/ropa';
+import { environment } from '../../../../environments/environment.development';
 
 @Component({
   selector: 'app-admin-products',
@@ -22,7 +23,7 @@ export class AdminProductsComponent implements OnInit {
   selectedFiles: File[] = [];
   imagesPreviews: string[] = [];
 
-  private API = 'http://localhost:3000/api';
+    private API = environment.BACK_URL;
 
   constructor(
     private fb: FormBuilder,
@@ -192,17 +193,17 @@ export class AdminProductsComponent implements OnInit {
   }
 
 
-getImageUrl(imagePath: string): string {
-  const baseUrl = 'http://localhost:3000';
-  
-  // Si la ruta ya tiene /public
-  if (imagePath.startsWith('/public/')) {
-    return `${baseUrl}${imagePath}`;
+  getImageUrl(imagePath: string): string {
+    const baseUrl = environment.BACK_URL.replace('/api/', ''); 
+    
+    // Si la ruta ya tiene /public
+    if (imagePath.startsWith('/public/')) {
+      return `${baseUrl}${imagePath}`;
+    }
+    
+    // Si es una ruta vieja sin /public
+    return `${baseUrl}/public${imagePath}`;
   }
-  
-  // Si es una ruta vieja sin /public
-  return `${baseUrl}/public${imagePath}`;
-}
 
 getCategoryName(categoryId: string): string {
   const cat = this.categories.find(c => c._id === categoryId);
