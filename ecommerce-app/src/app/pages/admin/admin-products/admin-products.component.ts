@@ -50,7 +50,7 @@ export class AdminProductsComponent implements OnInit {
   }
 
   loadCategories() {
-    this.http.get<any[]>(`${this.API}/categories`).subscribe({
+    this.http.get<any[]>(`${this.API}categories`).subscribe({
       next: (response) => {
         this.categories = Array.isArray(response) ? response : [];
         console.log('Categorías cargadas:', this.categories);
@@ -63,7 +63,7 @@ export class AdminProductsComponent implements OnInit {
   }
 
   loadProducts(page: number = 1) {
-    this.http.get<any>(`${this.API}/products?page=${page}`).subscribe({
+    this.http.get<any>(`${this.API}products?page=${page}`).subscribe({
       next: (response) => {
         if (response && Array.isArray(response.products)) {
           this.products = response.products;
@@ -120,7 +120,7 @@ export class AdminProductsComponent implements OnInit {
   const productData = this.productForm.value;
 
   if (this.editMode && this.currentProductId) {
-    this.http.put(`${this.API}/products/${this.currentProductId}`, productData).subscribe({
+    this.http.put(`${this.API}products/${this.currentProductId}`, productData).subscribe({
       next: (response: any) => {
         alert(`Producto "${response.name}" actualizado correctamente`);
         this.resetForm();
@@ -132,7 +132,7 @@ export class AdminProductsComponent implements OnInit {
       }
     });
   } else {
-    this.http.post(`${this.API}/products`, productData).subscribe({
+    this.http.post(`${this.API}products`, productData).subscribe({
       next: (response: any) => {
         alert(`Producto "${response.name}" creado correctamente`);
         this.resetForm();
@@ -170,7 +170,7 @@ export class AdminProductsComponent implements OnInit {
   deleteProduct(productId: string) {
     if (!confirm('¿Estás seguro de eliminar este producto?')) return;
 
-    this.http.delete(`${this.API}/products/${productId}`).subscribe({
+    this.http.delete(`${this.API}products/${productId}`).subscribe({
       next: () => {
         alert('Producto eliminado');
         this.loadProducts();
