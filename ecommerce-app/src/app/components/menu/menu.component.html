@@ -37,7 +37,7 @@
                     <input 
                       type="text" 
                       class="form-control buscar" 
-                      placeholder="Buscar productos..." 
+                      placeholder="Buscar..." 
                       [(ngModel)]="searchTerm" 
                       (input)="onSearchInput()"
                       (keyup.enter)="onSearch()"
@@ -46,7 +46,7 @@
                     
                     <!-- Ícono de búsqueda/loading -->
                     <span class="search-icon">
-                      <i *ngIf="!isSearching" class="fa fa-search"></i>
+                      <!-- <i *ngIf="!isSearching" class="fa fa-search"></i> -->
                       <i *ngIf="isSearching" class="fa fa-spinner fa-spin"></i>
                     </span>
 
