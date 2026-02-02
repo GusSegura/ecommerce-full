@@ -1,0 +1,987 @@
+[{
+  "_id": {
+    "$oid": "68a401f6cf7835b05e3aa04b"
+  },
+  "user": {
+    "$oid": "68a2a76ca3ac209d574bee2a"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "68a401f6cf7835b05e3aa04c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a188dc1c63b3f4f69f2847"
+      },
+      "quantity": 1,
+      "price": 520,
+      "_id": {
+        "$oid": "68a401f6cf7835b05e3aa04d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd16cf7835b05e3aa02f"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f0a3d9d4153b457e5880"
+  },
+  "shippingCost": 50,
+  "totalPrice": 855,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a402cccf7835b05e3aa05a"
+  },
+  "user": {
+    "$oid": "68a2a78ea3ac209d574bee30"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a189361c63b3f4f69f2853"
+      },
+      "quantity": 1,
+      "price": 640,
+      "_id": {
+        "$oid": "68a402cccf7835b05e3aa05b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a1896d1c63b3f4f69f2857"
+      },
+      "quantity": 2,
+      "price": 250,
+      "_id": {
+        "$oid": "68a402cccf7835b05e3aa05c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fc98cf7835b05e3aa02c"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "shippingCost": 100,
+  "totalPrice": 1240,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a40387cf7835b05e3aa062"
+  },
+  "user": {
+    "$oid": "68a2a7a6a3ac209d574bee36"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1890f1c63b3f4f69f284d"
+      },
+      "quantity": 1,
+      "price": 200,
+      "_id": {
+        "$oid": "68a40387cf7835b05e3aa063"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a188f31c63b3f4f69f2849"
+      },
+      "quantity": 1,
+      "price": 410,
+      "_id": {
+        "$oid": "68a40387cf7835b05e3aa064"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd7dcf7835b05e3aa032"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1159ad573598599eb4b"
+  },
+  "shippingCost": 90,
+  "totalPrice": 700,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a4043fcf7835b05e3aa06a"
+  },
+  "user": {
+    "$oid": "68a2a7a6a3ac209d574bee36"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "68a4043fcf7835b05e3aa06b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd7dcf7835b05e3aa032"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1289ad573598599eb4e"
+  },
+  "shippingCost": 15,
+  "totalPrice": 300,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a4047ecf7835b05e3aa071"
+  },
+  "user": {
+    "$oid": "68a2a7a6a3ac209d574bee36"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1879f1c63b3f4f69f283e"
+      },
+      "quantity": 1,
+      "price": 315,
+      "_id": {
+        "$oid": "68a4047ecf7835b05e3aa072"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd7dcf7835b05e3aa032"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1379ad573598599eb52"
+  },
+  "shippingCost": 15,
+  "totalPrice": 330,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a40506cf7835b05e3aa078"
+  },
+  "user": {
+    "$oid": "68a2a76ca3ac209d574bee2a"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1879f1c63b3f4f69f283e"
+      },
+      "quantity": 1,
+      "price": 315,
+      "_id": {
+        "$oid": "68a40506cf7835b05e3aa079"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd16cf7835b05e3aa02f"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "shippingCost": 15,
+  "totalPrice": 330,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a4053dcf7835b05e3aa07f"
+  },
+  "user": {
+    "$oid": "68a2a76ca3ac209d574bee2a"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1890f1c63b3f4f69f284d"
+      },
+      "quantity": 2,
+      "price": 200,
+      "_id": {
+        "$oid": "68a4053dcf7835b05e3aa080"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fd16cf7835b05e3aa02f"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "shippingCost": 50,
+  "totalPrice": 450,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a405c3cf7835b05e3aa086"
+  },
+  "user": {
+    "$oid": "68a2a782a3ac209d574bee2d"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a189201c63b3f4f69f284f"
+      },
+      "quantity": 1,
+      "price": 640,
+      "_id": {
+        "$oid": "68a405c3cf7835b05e3aa087"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a400b1cf7835b05e3aa044"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f0a3d9d4153b457e5880"
+  },
+  "shippingCost": 100,
+  "totalPrice": 740,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a40601cf7835b05e3aa08d"
+  },
+  "user": {
+    "$oid": "68a2a782a3ac209d574bee2d"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1892b1c63b3f4f69f2851"
+      },
+      "quantity": 1,
+      "price": 180,
+      "_id": {
+        "$oid": "68a40601cf7835b05e3aa08e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a400b1cf7835b05e3aa044"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f0a3d9d4153b457e5880"
+  },
+  "shippingCost": 20,
+  "totalPrice": 200,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a406e1cf7835b05e3aa094"
+  },
+  "user": {
+    "$oid": "68a2a7bfa3ac209d574bee3c"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "68a406e1cf7835b05e3aa095"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a1896d1c63b3f4f69f2857"
+      },
+      "quantity": 1,
+      "price": 250,
+      "_id": {
+        "$oid": "68a406e1cf7835b05e3aa096"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a188dc1c63b3f4f69f2847"
+      },
+      "quantity": 2,
+      "price": 520,
+      "_id": {
+        "$oid": "68a406e1cf7835b05e3aa097"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fe04cf7835b05e3aa038"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "shippingCost": 120,
+  "totalPrice": 1695,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a4ffae55de1bdb729ced72"
+  },
+  "user": {
+    "$oid": "68a29f5ca3ac209d574bee1d"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1879f1c63b3f4f69f283e"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "68a4ffae55de1bdb729ced73"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a188f31c63b3f4f69f2849"
+      },
+      "quantity": 3,
+      "price": 250,
+      "_id": {
+        "$oid": "68a4ffae55de1bdb729ced74"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "68a3fe04cf7835b05e3aa038"
+  },
+  "paymentMethod": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "shippingCost": 120,
+  "totalPrice": 1155,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a25cf53f28c1a53454a85"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188f31c63b3f4f69f2849"
+      },
+      "quantity": 1,
+      "price": 410,
+      "_id": {
+        "$oid": "693a25cf53f28c1a53454a86"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a189011c63b3f4f69f284b"
+      },
+      "quantity": 1,
+      "price": 190,
+      "_id": {
+        "$oid": "693a25cf53f28c1a53454a87"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a1890f1c63b3f4f69f284d"
+      },
+      "quantity": 1,
+      "price": 200,
+      "_id": {
+        "$oid": "693a25cf53f28c1a53454a88"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693a25cf53f28c1a53454a80"
+  },
+  "paymentMethod": {
+    "$oid": "693a25cf53f28c1a53454a82"
+  },
+  "shippingCost": 0,
+  "totalPrice": 800,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693cdc7a8f27911c12be336b"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1879f1c63b3f4f69f283e"
+      },
+      "quantity": 2,
+      "price": 318,
+      "_id": {
+        "$oid": "693cdc7a8f27911c12be336c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 2,
+      "price": 285,
+      "_id": {
+        "$oid": "693cdc7a8f27911c12be336d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a1892b1c63b3f4f69f2851"
+      },
+      "quantity": 1,
+      "price": 180,
+      "_id": {
+        "$oid": "693cdc7a8f27911c12be336e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693cdc7a8f27911c12be3366"
+  },
+  "paymentMethod": {
+    "$oid": "693cdc7a8f27911c12be3368"
+  },
+  "shippingCost": 0,
+  "totalPrice": 1386,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da4f08433a98e7db51a5d"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0bdebf778d93f61fc2f2"
+      },
+      "quantity": 1,
+      "price": 170,
+      "_id": {
+        "$oid": "693da4f08433a98e7db51a5e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693da4f08433a98e7db51a58"
+  },
+  "paymentMethod": {
+    "$oid": "693da4f08433a98e7db51a5a"
+  },
+  "shippingCost": 0,
+  "totalPrice": 170,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dd5e18433a98e7db51aaf"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0bb7bf778d93f61fc2ee"
+      },
+      "quantity": 1,
+      "price": 195,
+      "_id": {
+        "$oid": "693dd5e18433a98e7db51ab0"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693dd5e18433a98e7db51aaa"
+  },
+  "paymentMethod": {
+    "$oid": "693dd5e18433a98e7db51aac"
+  },
+  "shippingCost": 0,
+  "totalPrice": 195,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de055012b74ded47ab444"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "693de055012b74ded47ab445"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693de054012b74ded47ab43e"
+  },
+  "paymentMethod": {
+    "$oid": "693de055012b74ded47ab440"
+  },
+  "shippingCost": 0,
+  "totalPrice": 285,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de0f0012b74ded47ab45e"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188a51c63b3f4f69f2844"
+      },
+      "quantity": 1,
+      "price": 285,
+      "_id": {
+        "$oid": "693de0f0012b74ded47ab45f"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693de0f0012b74ded47ab458"
+  },
+  "paymentMethod": {
+    "$oid": "693de0f0012b74ded47ab45a"
+  },
+  "shippingCost": 0,
+  "totalPrice": 285,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de40e012b74ded47ab496"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0b92bf778d93f61fc2ea"
+      },
+      "quantity": 2,
+      "price": 300,
+      "_id": {
+        "$oid": "693de40e012b74ded47ab497"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693de40e012b74ded47ab490"
+  },
+  "paymentMethod": {
+    "$oid": "693de40e012b74ded47ab492"
+  },
+  "shippingCost": 0,
+  "totalPrice": 600,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dfa5b55f4f8cfa048b74d"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188dc1c63b3f4f69f2847"
+      },
+      "quantity": 1,
+      "price": 520,
+      "_id": {
+        "$oid": "693dfa5b55f4f8cfa048b74e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "693d0afcbf778d93f61fc2e1"
+      },
+      "quantity": 1,
+      "price": 310,
+      "_id": {
+        "$oid": "693dfa5b55f4f8cfa048b74f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "693d0bb7bf778d93f61fc2ee"
+      },
+      "quantity": 1,
+      "price": 195,
+      "_id": {
+        "$oid": "693dfa5b55f4f8cfa048b750"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693dfa5b55f4f8cfa048b745"
+  },
+  "paymentMethod": {
+    "$oid": "693dfa5b55f4f8cfa048b747"
+  },
+  "shippingCost": 0,
+  "totalPrice": 1025,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f626f5c3d8481fc53049b"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0bb7bf778d93f61fc2ee"
+      },
+      "quantity": 2,
+      "price": 195,
+      "_id": {
+        "$oid": "693f626f5c3d8481fc53049c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693f626f5c3d8481fc530495"
+  },
+  "paymentMethod": {
+    "$oid": "693f626f5c3d8481fc530497"
+  },
+  "shippingCost": 0,
+  "totalPrice": 390,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f62c85c3d8481fc530549"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693f60d45c3d8481fc53045c"
+      },
+      "quantity": 4,
+      "price": 4,
+      "_id": {
+        "$oid": "693f62c85c3d8481fc53054a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "693f62c85c3d8481fc530543"
+  },
+  "paymentMethod": {
+    "$oid": "693f62c85c3d8481fc530545"
+  },
+  "shippingCost": 0,
+  "totalPrice": 16,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940153c6aa68f4be3989273"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693ce5138f27911c12be338c"
+      },
+      "quantity": 1,
+      "price": 360,
+      "_id": {
+        "$oid": "6940153c6aa68f4be3989274"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a189201c63b3f4f69f284f"
+      },
+      "quantity": 1,
+      "price": 640,
+      "_id": {
+        "$oid": "6940153c6aa68f4be3989275"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "6940153c6aa68f4be398926c"
+  },
+  "paymentMethod": {
+    "$oid": "6940153c6aa68f4be398926e"
+  },
+  "shippingCost": 0,
+  "totalPrice": 1000,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a260a99d281f66b701f7"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a188f31c63b3f4f69f2849"
+      },
+      "quantity": 1,
+      "price": 410,
+      "_id": {
+        "$oid": "6940a260a99d281f66b701f8"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "693ce5138f27911c12be338c"
+      },
+      "quantity": 1,
+      "price": 360,
+      "_id": {
+        "$oid": "6940a260a99d281f66b701f9"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "6940a260a99d281f66b701f0"
+  },
+  "paymentMethod": {
+    "$oid": "6940a260a99d281f66b701f2"
+  },
+  "shippingCost": 0,
+  "totalPrice": 770,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a2aba99d281f66b70214"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0a41bf778d93f61fc2d0"
+      },
+      "quantity": 1,
+      "price": 350,
+      "_id": {
+        "$oid": "6940a2aba99d281f66b70215"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "6940a2aba99d281f66b70210"
+  },
+  "paymentMethod": {
+    "$oid": "6940a2aba99d281f66b7020e"
+  },
+  "shippingCost": 0,
+  "totalPrice": 350,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a94744a0dd738c8bc4e1"
+  },
+  "user": {
+    "$oid": "693fc9b3be059996d1f3db15"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a1892b1c63b3f4f69f2851"
+      },
+      "quantity": 1,
+      "price": 180,
+      "_id": {
+        "$oid": "6940a94744a0dd738c8bc4e2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "6940a94744a0dd738c8bc4db"
+  },
+  "paymentMethod": {
+    "$oid": "6940a94744a0dd738c8bc4dd"
+  },
+  "shippingCost": 0,
+  "totalPrice": 180,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940bb8e44a0dd738c8bc668"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "68a189201c63b3f4f69f284f"
+      },
+      "quantity": 1,
+      "price": 640,
+      "_id": {
+        "$oid": "6940bb8e44a0dd738c8bc669"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68a1892b1c63b3f4f69f2851"
+      },
+      "quantity": 1,
+      "price": 180,
+      "_id": {
+        "$oid": "6940bb8e44a0dd738c8bc66a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "6940bb8e44a0dd738c8bc661"
+  },
+  "paymentMethod": {
+    "$oid": "6940bb8e44a0dd738c8bc663"
+  },
+  "shippingCost": 0,
+  "totalPrice": 820,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696b2e4c8d9e89552173e403"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "products": [
+    {
+      "productId": {
+        "$oid": "693d0bb7bf778d93f61fc2ee"
+      },
+      "quantity": 1,
+      "price": 195,
+      "_id": {
+        "$oid": "696b2e4c8d9e89552173e404"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "$oid": "696b2e4c8d9e89552173e3fd"
+  },
+  "paymentMethod": {
+    "$oid": "696b2e4c8d9e89552173e3ff"
+  },
+  "shippingCost": 0,
+  "totalPrice": 195,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "__v": 0
+}]

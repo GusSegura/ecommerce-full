@@ -1,0 +1,654 @@
+[{
+  "_id": {
+    "$oid": "68a3f0a3d9d4153b457e5880"
+  },
+  "user": {
+    "$oid": "68a2a78ea3ac209d574bee30"
+  },
+  "type": "credit_card",
+  "cardNumber": "4111111111111111",
+  "cardHolderName": "Diber Cambindo",
+  "expiryDate": "12/28",
+  "isDefault": true,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3f1019ad573598599eb48"
+  },
+  "user": {
+    "$oid": "68a2a76ca3ac209d574bee2a"
+  },
+  "type": "debit_card",
+  "cardNumber": "5200000000000007",
+  "cardHolderName": "Juan Perez",
+  "expiryDate": "08/27",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3f1159ad573598599eb4b"
+  },
+  "user": {
+    "$oid": "68a2a7a6a3ac209d574bee36"
+  },
+  "type": "paypal",
+  "paypalEmail": "hector.cardona@example.com",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3f1289ad573598599eb4e"
+  },
+  "user": {
+    "$oid": "68a2a7bfa3ac209d574bee3c"
+  },
+  "type": "bank_transfer",
+  "bankName": "Banco Nacional",
+  "accountNumber": "1234567890",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3f1379ad573598599eb52"
+  },
+  "user": {
+    "$oid": "68a2a7cda3ac209d574bee3f"
+  },
+  "type": "cash_on_delivery",
+  "isDefault": true,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69391ff120ff1613f7dd9663"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6939202520ff1613f7dd9666"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "9871234567897896",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6939209c03b291dcbd0841c4"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693920b003b291dcbd0841c7"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693922295e8e4cab2867262c"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "jhlkjhljh",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693922365e8e4cab28672630"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "jhlkjhljh",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693989b45e8e4cab28672664"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a0ef4434748f7b997e6cb"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a129052fb044223c43aa2"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a14a84c00883781fbcc14"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1e6d8b37f46342105510"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1f0f8b37f4634210553e"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1fb58b37f4634210554d"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "nombre",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a2158764da6dd0ed0f70c"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "casa",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a23d15dc149e6e4d44ec0"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "jkh gkjhgkg",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a25cf53f28c1a53454a82"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": " hhghgkjh gk",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693cdc7a8f27911c12be3368"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da39f8433a98e7db51a4f"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da4448433a98e7db51a52"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da4778433a98e7db51a55"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da4f08433a98e7db51a5a"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dd5e18433a98e7db51aac"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "kljkj",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddb169d39b7fa6d1e2c85"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddbe19d39b7fa6d1e2c9e"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddbee9d39b7fa6d1e2ca3"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddc179d39b7fa6d1e2ca8"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddc7c9d39b7fa6d1e2cad"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de055012b74ded47ab440"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "9879879879 987987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de0f0012b74ded47ab45a"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de40e012b74ded47ab492"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dfa5b55f4f8cfa048b747"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "kjhl lhg khgkh",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f626f5c3d8481fc530497"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "98798",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f62c85c3d8481fc530545"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "987",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940153c6aa68f4be398926e"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "kghkhkjh ",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a260a99d281f66b701f2"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "type": "credit_card",
+  "cardNumber": "9855",
+  "cardHolderName": "Ramiro lopez",
+  "expiryDate": "12/26",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a2aba99d281f66b7020e"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "type": "credit_card",
+  "cardNumber": "2832",
+  "cardHolderName": "Roberto lopez",
+  "expiryDate": "12/26",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a94744a0dd738c8bc4dd"
+  },
+  "user": {
+    "$oid": "693fc9b3be059996d1f3db15"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "iuytit",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940bb8e44a0dd738c8bc663"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "type": "credit_card",
+  "cardNumber": "1234567812345678",
+  "cardHolderName": "Francisco Perez",
+  "expiryDate": "12/25",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696b2e4c8d9e89552173e3ff"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "type": "credit_card",
+  "cardNumber": "7894561231231231",
+  "cardHolderName": "gustavo segura",
+  "expiryDate": "02/26",
+  "isDefault": false,
+  "isActive": true,
+  "__v": 0
+}]

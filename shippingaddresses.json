@@ -1,0 +1,756 @@
+[{
+  "_id": {
+    "$oid": "68a3fc98cf7835b05e3aa02c"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Diber Cambindo",
+  "address": "Calle Falsa 123",
+  "city": "Jesus Maria",
+  "state": "Aguascalientes",
+  "postalCode": "20900",
+  "country": "México",
+  "phone": "5512345678",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fd16cf7835b05e3aa02f"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Juan Perez",
+  "address": "Calle Azul 113",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4492345678",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fd7dcf7835b05e3aa032"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Hector Cardona",
+  "address": "Lopez Mateos 456",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4492345321",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fdb5cf7835b05e3aa035"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Eduardo Rios",
+  "address": "Av. Guadalupe 515",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4497895321",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fe04cf7835b05e3aa038"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Monica Teran",
+  "address": "Av. Independencia 1855",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "20100",
+  "country": "México",
+  "phone": "5557895321",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fe50cf7835b05e3aa03b"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Carlos Ruiz",
+  "address": "Blvd Aguascalientes 830",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "20300",
+  "country": "México",
+  "phone": "3357895321",
+  "isDefault": false,
+  "addressType": "work",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a3fea8cf7835b05e3aa03e"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Valeria Segura",
+  "address": "Av Convención 400",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "21300",
+  "country": "México",
+  "phone": "4496328971",
+  "isDefault": false,
+  "addressType": "other",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a40052cf7835b05e3aa041"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Luis Garcia",
+  "address": "Av Revolucion 100",
+  "city": "Ags",
+  "state": "Aguascalientes",
+  "postalCode": "21200",
+  "country": "México",
+  "phone": "4497894714",
+  "isDefault": false,
+  "addressType": "work",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a400b1cf7835b05e3aa044"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Maria Lopez",
+  "address": "Versalles 550",
+  "city": "Calvillo",
+  "state": "Aguascalientes",
+  "postalCode": "20300",
+  "country": "México",
+  "phone": "4489562371",
+  "isDefault": false,
+  "addressType": "other",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a40120cf7835b05e3aa047"
+  },
+  "user": {
+    "$oid": "68a2c3f447f8fa13b5aecccb"
+  },
+  "name": "Sandra Ruiz",
+  "address": "Loma Amarilla 280",
+  "city": "Teocaltiche",
+  "state": "Jalisco",
+  "postalCode": "47200",
+  "country": "México",
+  "phone": "3659562371",
+  "isDefault": true,
+  "addressType": "work",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a129052fb044223c43aa0"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98",
+  "address": "79 987 987 98 79",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a14a84c00883781fbcc12"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "987",
+  "address": "987987 987 987",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1e6d8b37f4634210550e"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98",
+  "address": "98 798 798 q",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1f0e8b37f4634210553c"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "987",
+  "address": "9879 87f98",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a1fb58b37f4634210554b"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "nombre",
+  "address": "Calle 123 centro",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a2158764da6dd0ed0f70a"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "casa",
+  "address": "kjhgkjhg kgkk jk hg jhgkjh gk",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a23d15dc149e6e4d44ebe"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "jkh gkjhgkg",
+  "address": "kjh gkjhgkjh gkhg khgkj",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693a25cf53f28c1a53454a80"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "hhghgkjh gk",
+  "address": "kjhg kj",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693cdc7a8f27911c12be3366"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "987987",
+  "address": "9879879879",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693da4f08433a98e7db51a58"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98",
+  "address": "987 64654654",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dd5e18433a98e7db51aaa"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "kljkj",
+  "address": "lkjhlkjhlkjhlkjhlk",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddb169d39b7fa6d1e2c87"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "79879879879",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddbe19d39b7fa6d1e2c9c"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "987987987897",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddbee9d39b7fa6d1e2ca1"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "987987987897",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddc179d39b7fa6d1e2ca6"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "987987987897",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ddc7c9d39b7fa6d1e2cab"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "987987987897",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de054012b74ded47ab43e"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "9879879879 987987",
+  "address": "987987987987987978",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de0f0012b74ded47ab458"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "98798",
+  "address": "7979879",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693de40e012b74ded47ab490"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "name": "98798",
+  "address": "79879879",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dfa5b55f4f8cfa048b745"
+  },
+  "user": {
+    "$oid": "68a41145cf7835b05e3aa0d2"
+  },
+  "name": "kjhl lhg khgkh",
+  "address": "hgkjghkjhgkjhgkjg",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f626f5c3d8481fc530495"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "name": "98798",
+  "address": "987987",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f62c85c3d8481fc530543"
+  },
+  "user": {
+    "$oid": "693644247455c590203f19d9"
+  },
+  "name": "987",
+  "address": "798798798798",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940153c6aa68f4be398926c"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "kghkhkjh",
+  "address": "hg kjhgkjhgkhgkjh gkjhg k",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a0403cbf5b3de6ca0ac5"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "Ramiro lopez",
+  "address": "calle 123 hg",
+  "city": "Aguascalientes",
+  "state": "Aguas",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4499101010",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a06c849df1c5071821d0"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "Ramiro lopez",
+  "address": "calle 123 hg",
+  "city": "Aguascalientes",
+  "state": "Aguas",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4499101010",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a260a99d281f66b701f0"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "Ramiro lopez",
+  "address": "calle 123 hg",
+  "city": "Aguascalientes",
+  "state": "Aguas",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4499101010",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a2aba99d281f66b70210"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "Roberto lopez",
+  "address": "Esmeralda 123",
+  "city": "Aguascalientes",
+  "state": "Aguas",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "4499101010",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940a94744a0dd738c8bc4db"
+  },
+  "user": {
+    "$oid": "693fc9b3be059996d1f3db15"
+  },
+  "name": "iuytit",
+  "address": "yiuytiuytiuy",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940bb8e44a0dd738c8bc661"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "Francisco Perez",
+  "address": "Calle Roma 123 del valle",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696b2deb8d9e89552173e3f3"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "iuyiuy",
+  "address": "abcdertg u u 123",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696b2e0c8d9e89552173e3f5"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "iuyiuy oiuoiiou",
+  "address": "abcdertg u u 123",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696b2e4c8d9e89552173e3fd"
+  },
+  "user": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "name": "gustavo segura",
+  "address": "Rayon 897 centro",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20000",
+  "country": "México",
+  "phone": "1234567890",
+  "isDefault": false,
+  "addressType": "home",
+  "__v": 0
+}]

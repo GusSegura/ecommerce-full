@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "name": "Mujeres",
+  "description": "Ropa de mujer para las 4 estaciones del año",
+  "imageURL": "https://drive.google.com/file/d/1MuxLccvz11OipqJqmsawqJvsWuq51o86/view?usp=drive_link",
+  "parentCategory": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "name": "Hombres",
+  "description": "Ropa de hombre para las 4 estaciones del año",
+  "imageURL": "https://drive.google.com/file/d/1E6Lyp1hnApyVmOm2aL7yNMRLjjEt-Gd-/view?usp=drive_link",
+  "parentCategory": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "name": "Kids",
+  "description": "Ropa de niño y niña para las 4 estaciones del año",
+  "imageURL": "https://drive.google.com/file/d/1Mp-eQRxJfL9ZOcRMut_fcIP4H3qnckke/view?usp=drive_link",
+  "parentCategory": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "name": "Accesorios",
+  "description": "Accesorios de moda para toda la familia",
+  "imageURL": "https://drive.google.com/file/d/18z3ewC7emFI4MNy3OXp9L97HQJdFDbHi/view?usp=drive_link",
+  "parentCategory": null,
+  "__v": 0
+}]

@@ -1,0 +1,467 @@
+[{
+  "_id": {
+    "$oid": "68a1879f1c63b3f4f69f283e"
+  },
+  "name": "Blusa Nube Blanca",
+  "description": "Blusa blanca de diseño fresco y delicado, confeccionada con tela ligera que brinda comodidad durante todo el día. Su estilo minimalista la hace ideal para looks casuales o formales, permitiendo combinarla fácilmente con jeans, faldas o pantalones de vestir. Una prenda básica y versátil para cualquier temporada.",
+  "price": 318,
+  "stock": 5,
+  "imagesUrl": [
+    "/mujer/mujer1.avif",
+    "/mujer/mujer1.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "__v": 0,
+  "season": "primavera"
+},
+{
+  "_id": {
+    "$oid": "68a188a51c63b3f4f69f2844"
+  },
+  "name": "Blusa Rococó Celeste",
+  "description": "Blusa color celeste con un diseño elegante y femenino, inspirada en un estilo clásico con un toque moderno. Su tela suave y ligera ofrece una caída natural que realza la silueta, siendo perfecta para ocasiones casuales o eventos semi formales. Ideal para quienes buscan un look sofisticado y fresco.",
+  "price": 295,
+  "stock": 2,
+  "imagesUrl": [
+    "/mujer/mujer2.avif",
+    "/mujer/mujer2.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "__v": 0,
+  "season": "verano"
+},
+{
+  "_id": {
+    "$oid": "68a188dc1c63b3f4f69f2847"
+  },
+  "name": "Pantalón Garden Mezclilla",
+  "description": "Pantalón de mezclilla resistente y cómodo, diseñado para el uso diario. Su corte moderno proporciona un ajuste favorecedor sin sacrificar movilidad. Ideal para crear outfits casuales y urbanos, combinando perfectamente con camisetas, blusas o camisas.",
+  "price": 520,
+  "stock": 3,
+  "imagesUrl": [
+    "/mujer/mujer3.avif",
+    "/mujer/mujer3.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "__v": 0,
+  "season": "invierno"
+},
+{
+  "_id": {
+    "$oid": "68a188f31c63b3f4f69f2849"
+  },
+  "name": "Camisa Resident Hojas",
+  "description": "Camisa para hombre con atractivo estampado de hojas que aporta un estilo fresco y moderno. Confeccionada en tela ligera y transpirable, es ideal para climas cálidos y ocasiones casuales. Perfecta para combinar con pantalones de mezclilla o chinos para un look relajado y actual.",
+  "price": 410,
+  "stock": 9,
+  "imagesUrl": [
+    "/hombre/hombre1.avif",
+    "/hombre/hombre1.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "__v": 0,
+  "season": "otono"
+},
+{
+  "_id": {
+    "$oid": "68a189011c63b3f4f69f284b"
+  },
+  "name": "Playera Sport Azul",
+  "description": "Playera deportiva color azul, elaborada con material cómodo y ligero que permite libertad de movimiento. Ideal para actividades físicas o uso casual, su diseño práctico y versátil la convierte en una prenda funcional para el día a día.",
+  "price": 190,
+  "stock": 5,
+  "imagesUrl": [
+    "/hombre/hombre2.avif",
+    "/hombre/hombre2.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "__v": 0,
+  "season": "verano"
+},
+{
+  "_id": {
+    "$oid": "68a1890f1c63b3f4f69f284d"
+  },
+  "name": "Playera Winter Marine",
+  "description": "Playera color marine con diseño moderno y acabado sobrio. Fabricada con tela suave y resistente, ofrece comodidad y durabilidad. Ideal para looks casuales de temporada, combinando fácilmente con jeans o pantalones deportivos.",
+  "price": 200,
+  "stock": 3,
+  "imagesUrl": [
+    "/hombre/hombre3.avif",
+    "/hombre/hombre3.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "__v": 0,
+  "season": "primavera"
+},
+{
+  "_id": {
+    "$oid": "68a189201c63b3f4f69f284f"
+  },
+  "name": "Conjunto Verona Beige",
+  "description": "Conjunto infantil color beige diseñado para brindar comodidad y estilo. Elaborado con materiales suaves y resistentes, ideal para el uso diario o salidas casuales. Su diseño práctico permite libertad de movimiento, siendo perfecto para acompañar la actividad diaria de los niños.",
+  "price": 640,
+  "stock": 6,
+  "imagesUrl": [
+    "/kids/kids1.avif",
+    "/kids/kids1.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "__v": 0,
+  "season": "verano"
+},
+{
+  "_id": {
+    "$oid": "68a1892b1c63b3f4f69f2851"
+  },
+  "name": "Short Elsa Blanco",
+  "description": "Short blanco para niña, confeccionado con tela ligera y cómoda. Su diseño fresco es ideal para climas cálidos y actividades al aire libre. Fácil de combinar con blusas o playeras, es una prenda práctica y versátil para el día a día.",
+  "price": 180,
+  "stock": 5,
+  "imagesUrl": [
+    "/kids/kids2.avif",
+    "/kids/kids2.1.avif"
+  ],
+  "category": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "__v": 0,
+  "season": "invierno"
+},
+{
+  "_id": {
+    "$oid": "68a189361c63b3f4f69f2853"
+  },
+  "name": "Conjunto Verona Gris",
+  "description": "Conjunto infantil color gris con diseño moderno y funcional. Fabricado con materiales suaves que ofrecen comodidad y resistencia. Ideal para uso diario, escuela o salidas casuales, manteniendo un estilo sencillo y actual.",
+  "price": 640,
+  "stock": 5,
+  "imagesUrl": [
+    "/kids/kids3.avif",
+    "/kids/kids3.1.avif"
+  ],
+  "category": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "__v": 0,
+  "season": "otono"
+},
+{
+  "_id": {
+    "$oid": "68a1896d1c63b3f4f69f2857"
+  },
+  "name": "Lentes de Sol Blade",
+  "description": "Lentes de sol con diseño moderno y audaz, ideales para complementar cualquier outfit. Proporcionan protección contra los rayos solares y un estilo sofisticado. Perfectos para uso diario, playa o actividades al aire libre.",
+  "price": 250,
+  "stock": 8,
+  "imagesUrl": [
+    "/accesorios/accesorio1.avif",
+    "/accesorios/accesorio1.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "__v": 0,
+  "season": "verano"
+},
+{
+  "_id": {
+    "$oid": "693cd4aeb042b349c7f566d0"
+  },
+  "name": "Blusa Italia",
+  "description": "Blusa color azul rey con diseño elegante y moderno. Confeccionada con tela de alta calidad que ofrece un ajuste cómodo y favorecedor. Ideal para ocasiones especiales o para elevar un look casual con un toque de color y sofisticación.",
+  "price": 255,
+  "stock": 6,
+  "imagesUrl": [
+    "/mujer/mujer6.avif",
+    "/mujer/mujer6.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "verano",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ce5138f27911c12be338c"
+  },
+  "name": "Pantalón Chelsy",
+  "description": "Pantalón a rayas en tonos azul y blanco, diseñado para ofrecer un estilo fresco y moderno. Su corte cómodo y su diseño llamativo lo convierten en una prenda ideal para outfits casuales o semi formales. Perfecto para combinar con blusas lisas o camisas ligeras.",
+  "price": 360,
+  "stock": 11,
+  "imagesUrl": [
+    "/mujer/mujer7.avif",
+    "/mujer/mujer7.1.png"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "invierno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ce90e8f27911c12be3398"
+  },
+  "name": "Vestido Verona",
+  "description": "Vestido rojo confeccionado con tela de alta calidad que ofrece un ajuste cómodo y favorecedor. Su diseño moderno realza la silueta femenina, brindando un equilibrio perfecto entre elegancia y estilo. Ideal para ocasiones especiales, eventos formales o salidas nocturnas, este vestido destaca por su color rojo intenso que aporta sofisticación y seguridad. Su corte versátil permite combinarlo fácilmente con distintos accesorios, convirtiéndolo en una prenda imprescindible en cualquier guardarropa.",
+  "price": 480,
+  "stock": 3,
+  "imagesUrl": [
+    "/mujer/mujer10.avif",
+    "/mujer/mujer10.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "verano",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d08dabf778d93f61fc2b3"
+  },
+  "name": "Top Escocia Floreado",
+  "description": "Top floreado con diseño femenino y moderno, ideal para looks frescos y casuales. Confeccionado en tela ligera y cómoda, ofrece un ajuste favorecedor y una excelente libertad de movimiento. Perfecto para combinar con jeans, faldas o shorts, aportando un toque de color y estilo a cualquier outfit.",
+  "price": 360,
+  "stock": 8,
+  "imagesUrl": [
+    "/mujer/mujer9.avif",
+    "/mujer/mujer9.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "otono",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0907bf778d93f61fc2b7"
+  },
+  "name": "Playera Roma Azul Marino",
+  "description": "Playera color azul marino con diseño sobrio y versátil. Elaborada con material suave y resistente que brinda comodidad durante todo el día. Ideal para uso casual o diario, su estilo atemporal permite combinarla fácilmente con mezclilla o pantalones deportivos.",
+  "price": 210,
+  "stock": 5,
+  "imagesUrl": [
+    "/mujer/mujer11.avif",
+    "/mujer/mujer11.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "invierno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0935bf778d93f61fc2bb"
+  },
+  "name": "Blusa Santander Roja",
+  "description": "Blusa roja de diseño elegante y femenino, confeccionada con tela de alta calidad que ofrece una caída natural y cómoda. Su color vibrante aporta presencia y sofisticación, siendo ideal para ocasiones casuales o semi formales. Una prenda versátil que realza cualquier conjunto.",
+  "price": 290,
+  "stock": 3,
+  "imagesUrl": [
+    "/mujer/mujer12.avif",
+    "/mujer/mujer12.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182a2ba51c57769a3d5fd"
+  },
+  "season": "otono",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d09f1bf778d93f61fc2c8"
+  },
+  "name": "Sudadera Loose Fit",
+  "description": "Sudadera de corte loose fit diseñada para ofrecer máxima comodidad y un estilo relajado. Confeccionada en material suave y cálido, ideal para climas frescos y uso diario. Su diseño moderno permite combinarla fácilmente con jeans o pants, convirtiéndola en una prenda versátil para un look casual y urbano.",
+  "price": 360,
+  "stock": 5,
+  "imagesUrl": [
+    "/hombre/hombre5.avif",
+    "/hombre/hombre5.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "season": "otono",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0a1cbf778d93f61fc2cc"
+  },
+  "name": "Pantalón Sevilla Beige",
+  "description": "Pantalón color beige de diseño elegante y atemporal. Elaborado con tela cómoda y resistente que brinda un ajuste favorecedor. Ideal para ocasiones casuales o semi formales, se adapta fácilmente a distintos estilos al combinarse con camisas, blusas o playeras.",
+  "price": 350,
+  "stock": 4,
+  "imagesUrl": [
+    "/hombre/hombre7.avif",
+    "/hombre/hombre7.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "season": "primavera",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0a41bf778d93f61fc2d0"
+  },
+  "name": "Pantalón Córdoba Oxford",
+  "description": "Pantalón color Oxford con corte moderno y sofisticado. Confeccionado con materiales de alta calidad que ofrecen comodidad y durabilidad. Perfecto para un look formal o de oficina, manteniendo un estilo sobrio y profesional sin sacrificar confort.",
+  "price": 350,
+  "stock": 5,
+  "imagesUrl": [
+    "/hombre/hombre8.avif",
+    "/hombre/hombre8.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "season": "invierno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0ad5bf778d93f61fc2dd"
+  },
+  "name": "Vestido Mónaco Azul",
+  "description": "Vestido infantil color azul con diseño encantador y cómodo, ideal para el uso diario o ocasiones especiales. Confeccionado con tela suave que permite libertad de movimiento y confort durante todo el día. Su estilo versátil lo hace perfecto para combinar con distintos accesorios, ofreciendo un look fresco y moderno para las niñas.",
+  "price": 275,
+  "stock": 5,
+  "imagesUrl": [
+    "/kids/kids4.avif",
+    "/kids/kids4.1.avif"
+  ],
+  "category": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "season": "invierno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0afcbf778d93f61fc2e1"
+  },
+  "name": "Sudadera Denver Gris",
+  "description": "Sudadera color gris de diseño moderno y funcional, elaborada con material suave y cálido que brinda comodidad en climas frescos. Ideal para uso casual o deportivo, su corte práctico y versátil permite combinarla fácilmente con jeans o pantalones deportivos para un look relajado.",
+  "price": 310,
+  "stock": 2,
+  "imagesUrl": [
+    "/kids/kids5.avif",
+    "/kids/kids5.1.avif"
+  ],
+  "category": {
+    "$oid": "68a182f8ba51c57769a3d602"
+  },
+  "season": "verano",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0b92bf778d93f61fc2ea"
+  },
+  "name": "Lentes Fashion Charles",
+  "description": "Lentes de estilo fashion con diseño moderno y elegante, ideales para complementar cualquier outfit. Ofrecen protección visual y un toque sofisticado, siendo perfectos para uso diario o eventos casuales. Un accesorio versátil que aporta personalidad y estilo.",
+  "price": 300,
+  "stock": 0,
+  "imagesUrl": [
+    "/accesorios/accesorio2.avif",
+    "/accesorios/accesorio2.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "season": "otono",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0bb7bf778d93f61fc2ee"
+  },
+  "name": "Gorra Mikey Beige",
+  "description": "Gorra color beige de diseño moderno y casual, confeccionada con materiales cómodos y resistentes. Ideal para proteger del sol y complementar looks urbanos o deportivos. Su color neutro permite combinarla fácilmente con distintos estilos y prendas.",
+  "price": 195,
+  "stock": 2,
+  "imagesUrl": [
+    "/accesorios/accesorio3.avif"
+  ],
+  "category": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "season": "primavera",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0bdebf778d93f61fc2f2"
+  },
+  "name": "Cinturón Henry Negro",
+  "description": "Cinturón color negro de diseño clásico y elegante, elaborado con materiales de alta calidad que garantizan resistencia y durabilidad. Ideal para uso formal o casual, es un accesorio esencial que aporta un acabado limpio y sofisticado a cualquier conjunto.",
+  "price": 170,
+  "stock": 0,
+  "imagesUrl": [
+    "/accesorios/accesorio4.avif",
+    "/accesorios/accesorio4.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "season": "invierno",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d0c0ebf778d93f61fc2f6"
+  },
+  "name": "Bolso Egipto Mediano",
+  "description": "Bolso mediano de diseño moderno y funcional, ideal para el uso diario. Cuenta con espacio suficiente para llevar lo esencial de manera organizada, combinando practicidad y estilo. Su diseño versátil lo hace perfecto para complementar distintos outfits y ocasiones.",
+  "price": 340,
+  "stock": 2,
+  "imagesUrl": [
+    "/accesorios/accesorio5.avif",
+    "/accesorios/accesorio5.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a18303ba51c57769a3d604"
+  },
+  "season": "otono",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693e63b0c28215cd32e702f8"
+  },
+  "name": "Pantalón Safari Caqui",
+  "description": "Pantalón funcional, de color beige o marrón claro confeccionado en algodón o mezclas duraderas, caracterizado por su estilo utilitario con múltiples bolsillos (cargo, laterales, traseros) con solapas o cierres, trabillas anchas para cinturón, y un corte cómodo y holgado que permite libertad de movimiento, ideal para actividades al aire libre o un look aventurero casual, inspirado en uniformes militares y explorad",
+  "price": 350,
+  "stock": 2,
+  "imagesUrl": [
+    "/hombre/hombre10.avif",
+    "/hombre/hombre10.1.jpg"
+  ],
+  "category": {
+    "$oid": "68a182dcba51c57769a3d5ff"
+  },
+  "season": "verano",
+  "__v": 0
+}]

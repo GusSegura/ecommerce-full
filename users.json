@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "693fc90bbe059996d1f3db10"
+  },
+  "displayName": "Lorena Pedroza Rios",
+  "email": "lore@ngstore.com",
+  "password": "$2b$10$O05bdgjZ/disnaKunxLreesQp/GQb7dH6vtpaoOVCQYfA2C4CbCYy",
+  "role": "customer",
+  "avatar": "https://placehold.co/100x100.png",
+  "phone": "4491234567",
+  "address": "Jardin del estudiante 123",
+  "city": "Ags",
+  "state": "Ags",
+  "postalCode": "20000",
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693fc9b3be059996d1f3db15"
+  },
+  "displayName": "Gustavo Segura",
+  "email": "admin@ng-store.com.mx",
+  "password": "$2b$10$RJVF0ZAmHZj1eByBux83FOk1n3F7/qdxAY2oSDaOkYWFAMPhvzhC6",
+  "role": "admin",
+  "avatar": "avatar1.jpg",
+  "phone": "4499102580",
+  "address": "Guadalupe 589",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "postalCode": "20070",
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693fd1bb6aa68f4be3989233"
+  },
+  "displayName": "Alejandro Segura Pedroza",
+  "email": "alex@alex.com",
+  "password": "$2b$10$sZYaVaJHwmpuDBgiFBdhC.cL3CMwxK6Gv87nT5/bAxCdHgyUwiDiq",
+  "role": "customer",
+  "avatar": "https://placehold.co/100x100.png",
+  "phone": "4491234567",
+  "address": "Arboledas 123",
+  "city": "Aguascalientes",
+  "state": "Ags.",
+  "postalCode": "20000",
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940ae5d44a0dd738c8bc536"
+  },
+  "displayName": "Valeria Gonzalez Fernandez",
+  "email": "valeria@ng-store.com",
+  "password": "$2b$10$Du2wvFmMj/w.Gs6kituWuOTX8f/EJhnUlToZUW.enVX6kqRFn8/4S",
+  "role": "customer",
+  "avatar": "https://placehold.co/100x100.png",
+  "phone": "4499102587",
+  "address": "Gonzalez Cotilla 345",
+  "city": "Teocaltiche",
+  "state": "Jalisco",
+  "postalCode": "69874",
+  "isActive": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696f9004dda8d0f79273e607"
+  },
+  "displayName": "Usuario Prueba",
+  "email": "test1768919035232@cypress.com",
+  "password": "$2b$10$c3FWVsA7Ywhu7oofi0kvvuUo8e0E/ir7qNY8pxV41VOmNZqdkHHbS",
+  "role": "customer",
+  "avatar": "https://placehold.co/100x100.png",
+  "phone": "5512345678",
+  "isActive": true,
+  "__v": 0
+}]
