@@ -1,26 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink, RouterLinkActive, Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { CarritoService } from '../../core/services/cart/carrito.service';
 import { ChangeDetectorRef } from '@angular/core';
 import { AuthService } from '../../core/services/auth/auth.service';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-menu',
-  imports: [RouterLink, RouterLinkActive, CommonModule],
+  imports: [RouterLink, RouterLinkActive, CommonModule, FormsModule],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
 export class MenuComponent implements OnInit {
 
   cantidadProductos: number = 0;
-
+  searchTerm: string = '';
   
     constructor(
     private carritoService: CarritoService,
     private cdr: ChangeDetectorRef,
-    public auth: AuthService
+    public auth: AuthService,
+    private router: Router
   ) {}
 
   ngOnInit() {
@@ -159,4 +161,11 @@ export class MenuComponent implements OnInit {
   isAdmin(): boolean {
     return this.auth.isAdmin();
   }
+
+
+  // para busqueda de productos
+  onSearch() { if (this.searchTerm.trim()) { 
+    this.router.navigate(['/buscar'], { queryParams: { q: this.searchTerm } }); 
+    // // Opción 2: llamar directo al servicio y mostrar resultados en el mismo componente // this.productService.searchProducts(this.searchTerm).subscribe(res => { // console.log(res); // 
+    }}
 }

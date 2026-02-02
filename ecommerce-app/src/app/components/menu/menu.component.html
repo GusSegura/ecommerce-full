@@ -35,6 +35,7 @@
           <li>
             <div class="px-3 py-2">
               <input type="text" class="form-control buscar" placeholder="Buscar...">
+              <input type="text" class="form-control buscar" placeholder="Buscar..." [(ngModel)]="searchTerm" (keyup.enter)="onSearch()" />
               <ul>
                 <li> <a class="dropdown-item" routerLink="/mujeres"> <i class="fa-solid fa-person-dress"></i> Mujeres </a> 
                 </li> <li> <a class="dropdown-item" routerLink="/hombres"> <i class="fa-solid fa-person"></i> Hombres </a> 
