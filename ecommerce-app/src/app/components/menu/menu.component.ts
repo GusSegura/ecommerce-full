@@ -1,27 +1,38 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterLink, RouterLinkActive, Router } from '@angular/router';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { RouterLink, RouterLinkActive, Router, RouterModule } from '@angular/router';
 import Swal from 'sweetalert2';
 import { CarritoService } from '../../core/services/cart/carrito.service';
 import { ChangeDetectorRef } from '@angular/core';
 import { AuthService } from '../../core/services/auth/auth.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Subject } from 'rxjs';
+import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { ProductosService } from '../../core/services/product/productos.service';
+
 
 @Component({
   selector: 'app-menu',
-  imports: [RouterLink, RouterLinkActive, CommonModule, FormsModule],
+  imports: [RouterLink, RouterLinkActive, CommonModule, FormsModule, RouterModule],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent implements OnInit, OnDestroy {
 
   cantidadProductos: number = 0;
   searchTerm: string = '';
+  searchResults: any[] = [];
+  showResults = false;
+  isSearching = false;
+
+    // Subject para controlar las búsquedas
+  private searchSubject = new Subject<string>();
   
     constructor(
     private carritoService: CarritoService,
     private cdr: ChangeDetectorRef,
     public auth: AuthService,
+    private productosService: ProductosService,
     private router: Router
   ) {}
 
@@ -30,7 +41,71 @@ export class MenuComponent implements OnInit {
       this.cantidadProductos = contador;
       this.cdr.detectChanges();
     });
+
+    this.searchSubject.pipe(
+      debounceTime(300), // Esperar 300ms después de que el usuario deje de escribir
+      distinctUntilChanged(), // Solo buscar si el término cambió
+      switchMap(term => {
+        if (term.trim().length < 2) {
+          // Si el término es muy corto, no buscar
+          this.searchResults = [];
+          this.showResults = false;
+          return [];
+        }
+        
+        this.isSearching = true;
+        return this.productosService.searchProducts(term);
+      })
+    ).subscribe({
+      next: (results: any) => {
+        this.isSearching = false;
+        this.searchResults = results.products || results || [];
+        this.showResults = this.searchResults.length > 0;
+        console.log('Resultados encontrados:', this.searchResults.length);
+      },
+      error: (err) => {
+        this.isSearching = false;
+        console.error('Error en búsqueda:', err);
+        this.searchResults = [];
+        this.showResults = false;
+      }
+    });
   }
+
+   ngOnDestroy() {
+    this.searchSubject.complete();
+  }
+
+  // Cuando el usuario escribe
+  onSearchInput() {
+    this.searchSubject.next(this.searchTerm);
+  }
+
+  // Cuando presiona Enter o hace click en buscar
+  onSearch() {
+    if (this.searchTerm.trim()) {
+      this.showResults = false;
+      this.router.navigate(['/buscar'], { 
+        queryParams: { q: this.searchTerm } 
+      });
+    }
+  }
+  
+
+  // Cuando hace click en un resultado
+  selectProduct(productId: string) {
+    this.showResults = false;
+    this.searchTerm = '';
+    this.router.navigate(['/producto', productId]);
+  }
+
+  // Cerrar resultados cuando hace click fuera
+  closeResults() {
+    setTimeout(() => {
+      this.showResults = false;
+    }, 200);
+  }
+
 
   
   // POPUP DE LOGIN
@@ -164,8 +239,5 @@ export class MenuComponent implements OnInit {
 
 
   // para busqueda de productos
-  onSearch() { if (this.searchTerm.trim()) { 
-    this.router.navigate(['/buscar'], { queryParams: { q: this.searchTerm } }); 
-    // // Opción 2: llamar directo al servicio y mostrar resultados en el mismo componente // this.productService.searchProducts(this.searchTerm).subscribe(res => { // console.log(res); // 
-    }}
+
 }

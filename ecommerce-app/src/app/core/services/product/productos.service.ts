@@ -64,7 +64,9 @@ export class ProductosService {
     return this.http.delete<void>(`${this.baseUrl}/${id}`);
   }
 
-  searchProducts(query: string): Observable<any[]> { 
-    return this.http.get<any[]>(`${this.baseUrl}/search?q=${query}`);
-}
+  searchProducts(query: string): Observable<any> {
+    return this.http.get(`${environment.BACK_URL}products/search`, {
+      params: { q: query }
+    });
+  }
 }

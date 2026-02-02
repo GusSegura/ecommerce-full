@@ -34,8 +34,59 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
             <div class="px-3 py-2">
-              <input type="text" class="form-control buscar" placeholder="Buscar...">
-              <input type="text" class="form-control buscar" placeholder="Buscar..." [(ngModel)]="searchTerm" (keyup.enter)="onSearch()" />
+                    <input 
+                      type="text" 
+                      class="form-control buscar" 
+                      placeholder="Buscar productos..." 
+                      [(ngModel)]="searchTerm" 
+                      (input)="onSearchInput()"
+                      (keyup.enter)="onSearch()"
+                      (blur)="closeResults()"
+                    />
+                    
+                    <!-- Ícono de búsqueda/loading -->
+                    <span class="search-icon">
+                      <i *ngIf="!isSearching" class="fa fa-search"></i>
+                      <i *ngIf="isSearching" class="fa fa-spinner fa-spin"></i>
+                    </span>
+
+                    <!-- Resultados en tiempo real -->
+                    <div class="search-results" *ngIf="showResults && searchResults.length > 0">
+                      <div 
+                        *ngFor="let product of searchResults.slice(0, 5)" 
+                        class="search-result-item"
+                        (mousedown)="selectProduct(product._id)"
+                      >
+                        <img 
+                          [src]="product.imagesUrl?.[0] || '/assets/no-image.png'" 
+                          [alt]="product.name"
+                          class="result-image"
+                        />
+                        <div class="result-info">
+                          <p class="result-name">{{ product.name }}</p>
+                          <p class="result-price">${{ product.price }}</p>
+                        </div>
+                      </div>
+                      
+                      <!-- Ver todos los resultados -->
+                      <div 
+                        class="search-result-item view-all"
+                        (mousedown)="onSearch()"
+                        *ngIf="searchResults.length > 5"
+                      >
+                        <i class="fa fa-search"></i>
+                        Ver todos los resultados ({{ searchResults.length }})
+                      </div>
+                    </div>
+
+                    <!-- Mensaje cuando no hay resultados -->
+                    <div class="search-results" *ngIf="showResults && searchResults.length === 0 && !isSearching">
+                      <div class="search-result-item no-results">
+                        <i class="fa fa-exclamation-circle"></i>
+                        No se encontraron productos
+                      </div>
+                    </div>
+              
               <ul>
                 <li> <a class="dropdown-item" routerLink="/mujeres"> <i class="fa-solid fa-person-dress"></i> Mujeres </a> 
                 </li> <li> <a class="dropdown-item" routerLink="/hombres"> <i class="fa-solid fa-person"></i> Hombres </a> 
