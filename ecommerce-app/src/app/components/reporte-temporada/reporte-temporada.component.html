@@ -25,7 +25,7 @@
       <div class="ropa-container"> 
         @for(prod of productosTemporada; track $index){       
         <div class="ropa-card">
-           <img class="img-default card-img-top" [src]="prod.imagesUrl?.[0]" [alt]="prod.name">
+           <img class="img-default card-img-top"[src]="prod.imagesUrl && prod.imagesUrl[0] ? prod.imagesUrl[0] : '/assets/no-image.png'" [alt]="prod.name">
       <!-- usar imagenHover si existe, si no usar la primera imagen -->
       <img class="img-hover" [src]="prod.imagenHover ? prod.imagenHover : prod.imagesUrl?.[0]" [alt]="prod.name">
       <div class="card-content">
